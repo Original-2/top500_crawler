@@ -1,5 +1,5 @@
 # top500_crawler
-A program to crawl the top500 list of the most powerful super computers in the world over time
+A program to crawl the top500 list of the most powerful super computers in the world over time. The kaggle dataset can be found here: https://www.kaggle.com/domdejonge/top500.
 
 
 If there is demand I will do the HPCG and Green500 lists.
