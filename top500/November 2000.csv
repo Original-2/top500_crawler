@@ -1,0 +1,501 @@
+,Name,Manufacturer:,Cores:,Memory:,Processor:,Interconnect:,Linpack Performance (Rmax),Theoretical Peak (Rpeak),Nmax,HPCG [TFlop/s],Power Measurement Level:,Operating System:,Compiler:,Math Library:,MPI:,Power:,Nhalf
+0,"ASCI White, SP Power3 375 MHz",IBM,"8,192",0 GB,POWER3  375MHz,SP Switch,7.304 TFlop/s,12.288 TFlop/s,"640,000",False,False,AIX,False,False,False,False,False
+1,ASCI Red,Intel,"9,632",0 GB,Pentium Pro  333MHz,Proprietary,2.379 TFlop/s,3.207 TFlop/s,"362,880",False,False,Paragon OS,False,False,False,False,"75,400"
+2,"ASCI Blue-Pacific SST, IBM SP 604e",IBM,"5,808",0 GB,PowerPC 604e  332MHz,SP Switch,2.144 TFlop/s,3.8565 TFlop/s,"431,344",False,False,AIX,False,False,False,False,False
+3,ASCI Blue Mountain,HPE,"6,144",0 GB,R10000  250MHz,HIPPI,1.608 TFlop/s,3.072 TFlop/s,"374,400",False,False,IRIX,False,False,False,False,"138,000"
+4,SP Power3 375 MHz,IBM,"1,336",0 GB,POWER3  375MHz,SP Switch,1.417 TFlop/s,2.004 TFlop/s,"374,000",False,False,AIX,False,False,False,False,False
+5,SP Power3 375 MHz,IBM,"1,104",0 GB,POWER3  375MHz,SP Switch,1.179 TFlop/s,1.656 TFlop/s,False,False,False,AIX,False,False,False,False,False
+6,SR8000-F1/112,Hitachi,112,0 GB,Hitachi SR8000  375MHz,Multi-dimensional crossbar,1.035 TFlop/s,1.344 TFlop/s,"120,000",False,False,HI-UX/MPP,False,False,False,False,"15,160"
+7,SP Power3 375 MHz 8 way,IBM,"1,152",0 GB,POWER3  375MHz,SP Switch,0.929 TFlop/s,1.728 TFlop/s,"220,000",False,False,AIX,False,False,False,False,"62,000"
+8,SR8000-F1/100,Hitachi,100,0 GB,Hitachi SR8000  375MHz,Multi-dimensional crossbar,0.917 TFlop/s,1.2 TFlop/s,"115,000",False,False,HI-UX/MPP,False,False,False,False,"15,000"
+9,T3E1200,Cray/HPE,"1,084",0 GB,EV56  598MHz,3-D Torus,0.892 TFlop/s,1.3008 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+10,T3E1200,Cray/HPE,"1,084",0 GB,EV56  598MHz,3-D Torus,0.892 TFlop/s,1.3008 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+11,VPP5000/100,Fujitsu,100,0 GB,Fujitsu  300MHz,Full distributed crossbar,0.886 TFlop/s,0.96 TFlop/s,"195,600",False,False,UXP/V,False,False,False,False,"18,000"
+12,SR8000/128,Hitachi,128,0 GB,Hitachi SR8000  250MHz,Multi-dimensional crossbar,0.873 TFlop/s,1.024 TFlop/s,"120,000",False,False,HI-UX/MPP,False,False,False,False,"16,000"
+13,T3E900,Cray/HPE,"1,324",0 GB,EV5  450MHz,3-D Torus,0.815 TFlop/s,1.1916 TFlop/s,"134,400",False,False,UNICOS,False,False,False,False,"26,880"
+14,SP Power3 375 MHz,IBM,768,0 GB,POWER3  375MHz,SP Switch,0.795 TFlop/s,1.152 TFlop/s,False,False,False,AIX,False,False,False,False,False
+15,SP Power3 375 MHz,IBM,720,0 GB,POWER3  375MHz,SP Switch,0.741 TFlop/s,1.08 TFlop/s,False,False,False,AIX,False,False,False,False,False
+16,SP Power3 375 MHz,IBM,704,0 GB,POWER3  375MHz,SP Switch,0.723 TFlop/s,1.056 TFlop/s,"187,000",False,False,AIX,False,False,False,False,"37,500"
+17,SR8000-E1/80,Hitachi,80,0 GB,Hitachi SR8000  300MHz,Multi-dimensional crossbar,0.6913 TFlop/s,0.768 TFlop/s,"120,000",False,False,HI-UX/MPP,False,False,False,False,"9,408"
+18,ORIGIN 2000 250 MHz,HPE,"2,048",0 GB,R10000  250MHz,Hypercube,0.6909 TFlop/s,1.024 TFlop/s,"229,248",False,False,IRIX,False,False,False,False,"80,640"
+19,SP Power3 375 MHz,IBM,668,0 GB,POWER3  375MHz,SP Switch,0.688 TFlop/s,1.002 TFlop/s,False,False,False,AIX,False,False,False,False,False
+20,T3E900,Cray/HPE,"1,084",0 GB,EV5  450MHz,3-D Torus,0.675 TFlop/s,0.9756 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+21,T3E1200,Cray/HPE,812,0 GB,EV56  598MHz,3-D Torus,0.671 TFlop/s,0.9744 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+22,T3E1200,Cray/HPE,812,0 GB,EV56  598MHz,3-D Torus,0.671 TFlop/s,0.9744 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+23,SR8000-F1/60,Hitachi,60,0 GB,Hitachi SR8000  375MHz,Multi-dimensional crossbar,0.577 TFlop/s,0.72 TFlop/s,"89,000",False,False,HI-UX/MPP,False,False,False,False,"10,000"
+24,SP Power3 375 MHz,IBM,528,0 GB,POWER3  375MHz,SP Switch,0.553 TFlop/s,0.792 TFlop/s,False,False,False,AIX,False,False,False,False,False
+25,T3E900,Cray/HPE,876,0 GB,EV5  450MHz,3-D Torus,0.552 TFlop/s,0.7884 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+26,SP Power3 375 MHz 16 way,IBM,512,0 GB,POWER3  375MHz,SP Switch,0.561 TFlop/s,0.768 TFlop/s,False,False,False,AIX,False,False,False,False,False
+27,SP Power3 375 MHz 16 way,IBM,512,0 GB,POWER3  375MHz,SP Switch,0.561 TFlop/s,0.768 TFlop/s,False,False,False,AIX,False,False,False,False,False
+28,T3E1200,Cray/HPE,636,0 GB,EV56  598MHz,3-D Torus,0.526 TFlop/s,0.7632 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+29,T3E,Cray/HPE,"1,356",0 GB,EV5  300MHz,3-D Torus,0.525 TFlop/s,0.8136 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+30,AlphaServer SC ES40/EV67,HP,512,0 GB,EV67  666MHz,Quadrics,0.5076 TFlop/s,0.68266 TFlop/s,"200,000",False,False,Tru64 UNIX,False,False,False,False,"30,000"
+31,AlphaServer SC ES40/EV67,HP,512,0 GB,EV67  666MHz,Quadrics,0.5076 TFlop/s,0.68266 TFlop/s,"200,000",False,False,Tru64 UNIX,False,False,False,False,"30,000"
+32,VPP5000/56,Fujitsu,56,0 GB,Fujitsu  300MHz,Full distributed crossbar,0.492 TFlop/s,0.5376 TFlop/s,"228,480",False,False,UXP/V,False,False,False,False,"12,768"
+33,SP PC604e 332 MHz,IBM,"1,504",0 GB,PowerPC 604e  332MHz,SP Switch,0.49 TFlop/s,0.9986 TFlop/s,False,False,False,AIX,False,False,False,False,False
+34,VPP800/63,Fujitsu,63,0 GB,Fujitsu  250MHz,Full distributed crossbar,0.482 TFlop/s,0.504 TFlop/s,"234,360",False,False,UXP/V,False,False,False,False,"12,852"
+35,"ASCI Blue-Pacific CTR, IBM SP 604e",IBM,"1,344",0 GB,PowerPC 604e  332MHz,SP Switch,0.4682 TFlop/s,0.8924 TFlop/s,"205,000",False,False,AIX,False,False,False,False,"65,000"
+36,SR8000/64,Hitachi,64,0 GB,Hitachi SR8000  250MHz,Multi-dimensional crossbar,0.449 TFlop/s,0.512 TFlop/s,"92,000",False,False,HI-UX/MPP,False,False,False,False,"9,160"
+37,T3E1200,Cray/HPE,540,0 GB,EV56  598MHz,3-D Torus,0.447 TFlop/s,0.648 TFlop/s,"181,440",False,False,UNICOS,False,False,False,False,"17,280"
+38,T3E1200,Cray/HPE,540,0 GB,EV56  598MHz,3-D Torus,0.447 TFlop/s,0.648 TFlop/s,"181,440",False,False,UNICOS,False,False,False,False,"17,280"
+39,T3E1200,Cray/HPE,540,0 GB,EV56  598MHz,3-D Torus,0.447 TFlop/s,0.648 TFlop/s,"181,440",False,False,UNICOS,False,False,False,False,"17,280"
+40,T3E1200,Cray/HPE,540,0 GB,EV56  598MHz,3-D Torus,0.447 TFlop/s,0.648 TFlop/s,"181,440",False,False,UNICOS,False,False,False,False,"17,280"
+41,T3E900,Cray/HPE,692,0 GB,EV5  450MHz,3-D Torus,0.444 TFlop/s,0.6228 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+42,SP Power3 375 MHz,IBM,424,0 GB,POWER3  375MHz,SP Switch,0.441 TFlop/s,0.636 TFlop/s,False,False,False,AIX,False,False,False,False,False
+43,HPC 4500 400 MHz Cluster,Sun,896,0 GB,Sparc  200MHz,,0.42044 TFlop/s,0.7168 TFlop/s,"144,000",False,False,Solaris,False,False,False,False,"43,200"
+44,HPC 4500 400 MHz Cluster,Sun,896,0 GB,Sparc  200MHz,,0.42044 TFlop/s,0.7168 TFlop/s,"144,000",False,False,Solaris,False,False,False,False,"43,200"
+45,HPC 4500 400 MHz Cluster,Sun,896,0 GB,Sparc  200MHz,,0.42044 TFlop/s,0.7168 TFlop/s,"144,000",False,False,Solaris,False,False,False,False,"43,200"
+46,HPC 4500 400 MHz Cluster,Sun,896,0 GB,Sparc  200MHz,,0.42044 TFlop/s,0.7168 TFlop/s,"144,000",False,False,Solaris,False,False,False,False,"43,200"
+47,SP Power3 375 MHz,IBM,404,0 GB,POWER3  375MHz,SP Switch,0.42 TFlop/s,0.606 TFlop/s,False,False,False,AIX,False,False,False,False,False
+48,CP-PACS/2048,Hitachi/Tsukuba,"2,048",0 GB,HARP-1E  150MHz,Hyper crossbar,0.3682 TFlop/s,0.6144 TFlop/s,"103,680",False,False,HI-UX/MPP,False,False,False,False,"30,720"
+49,T3E,Cray/HPE,812,0 GB,EV5  300MHz,3-D Torus,0.355 TFlop/s,0.4872 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+50,T3E900,Cray/HPE,540,0 GB,EV5  450MHz,3-D Torus,0.341 TFlop/s,0.486 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+51,T3E900,Cray/HPE,540,0 GB,EV5  450MHz,3-D Torus,0.341 TFlop/s,0.486 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+52,SP Power3 222 MHz,IBM,562,0 GB,POWER3  222MHz,SP Switch,0.334 TFlop/s,0.499 TFlop/s,False,False,False,AIX,False,False,False,False,False
+53,T3E1200,Cray/HPE,404,0 GB,EV56  598MHz,3-D Torus,0.334 TFlop/s,0.4848 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+54,SP Power3 375 MHz,IBM,322,0 GB,POWER3  375MHz,SP Switch,0.33 TFlop/s,0.483 TFlop/s,False,False,False,AIX,False,False,False,False,False
+55,T3E1200,Cray/HPE,396,0 GB,EV56  598MHz,3-D Torus,0.328 TFlop/s,0.4752 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+56,SP Power3 375 MHz,IBM,320,0 GB,POWER3  375MHz,SP Switch,0.327 TFlop/s,0.48 TFlop/s,False,False,False,AIX,False,False,False,False,False
+57,SP Power3 375 MHz,IBM,318,0 GB,POWER3  375MHz,SP Switch,0.325 TFlop/s,0.477 TFlop/s,False,False,False,AIX,False,False,False,False,False
+58,VPP700/160E,Fujitsu,160,0 GB,Fujitsu  150MHz,Full distributed crossbar,0.319 TFlop/s,0.384 TFlop/s,"168,000",False,False,UXP/V,False,False,False,False,"24,000"
+59,SP Power3 200 MHz,IBM,604,0 GB,POWER3  200MHz,SP Switch,0.3103 TFlop/s,0.4832 TFlop/s,False,False,False,AIX,False,False,False,False,False
+60,SP Power3 222 MHz,IBM,512,0 GB,POWER3  222MHz,SP Switch,0.3076 TFlop/s,0.4546 TFlop/s,"148,000",False,False,AIX,False,False,False,False,"35,000"
+61,ORIGIN 2000 400 MHz,HPE,512,0 GB,R12000  400MHz,Hypercube,0.3002 TFlop/s,0.4096 TFlop/s,"130,560",False,False,Linux,False,False,False,False,"21,216"
+62,VPP5000/32,Fujitsu,32,0 GB,Fujitsu  300MHz,Full distributed crossbar,0.2961 TFlop/s,0.3072 TFlop/s,"170,880",False,False,UXP/V,False,False,False,False,"7,680"
+63,SP Power3 375 MHz,IBM,284,0 GB,POWER3  375MHz,SP Switch,0.288 TFlop/s,0.426 TFlop/s,False,False,False,AIX,False,False,False,False,False
+64,VPP5000/31,Fujitsu,31,0 GB,Fujitsu  300MHz,Full distributed crossbar,0.286 TFlop/s,0.2976 TFlop/s,False,False,False,UXP/V,False,False,False,False,False
+65,T3E750,Cray/HPE,540,0 GB,EV5  374MHz,3-D Torus,0.284 TFlop/s,0.405 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+66,SX-5/38M3,NEC,38,0 GB,NEC  250MHz,Multi-stage crossbar,0.287 TFlop/s,0.304 TFlop/s,False,False,False,Super-UX,False,False,False,False,False
+67,VPP5000/30,Fujitsu,30,0 GB,Fujitsu  300MHz,Full distributed crossbar,0.277 TFlop/s,0.288 TFlop/s,False,False,False,UXP/V,False,False,False,False,False
+68,ORIGIN 2000 195/250 MHz,HPE,"1,024",0 GB,MIPS  194MHz,Hypercube,0.2649 TFlop/s,0.32768 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+69,AlphaServer SC ES40/EV67,HP,256,0 GB,EV67  666MHz,Quadrics,0.2636 TFlop/s,0.34133 TFlop/s,"106,000",False,False,Tru64 UNIX,False,False,False,False,"20,000"
+70,AlphaServer SC ES40/EV67,HP,256,0 GB,EV67  666MHz,Quadrics,0.2636 TFlop/s,0.34133 TFlop/s,"106,000",False,False,Tru64 UNIX,False,False,False,False,"20,000"
+71,SP Power3 375 MHz,IBM,256,0 GB,POWER3  375MHz,SP Switch,0.257 TFlop/s,0.384 TFlop/s,"148,000",False,False,AIX,False,False,False,False,"24,000"
+72,SR8000/36,Hitachi,36,0 GB,Hitachi SR8000  250MHz,Multi-dimensional crossbar,0.255 TFlop/s,0.288 TFlop/s,"69,000",False,False,HI-UX/MPP,False,False,False,False,"5,968"
+73,T3E900,Cray/HPE,404,0 GB,EV5  450MHz,3-D Torus,0.253 TFlop/s,0.3636 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+74,SP PC604e 332 MHz,IBM,716,0 GB,PowerPC 604e  332MHz,SP Switch,0.25 TFlop/s,0.4754 TFlop/s,False,False,False,AIX,False,False,False,False,False
+75,SX-4/128H4,NEC,128,0 GB,NEC  250MHz,Multi-stage crossbar,0.244 TFlop/s,0.256 TFlop/s,False,False,False,EWS-UX/V,False,False,False,False,False
+76,SX-5/32M2,NEC,32,0 GB,NEC  250MHz,Multi-stage crossbar,0.2414 TFlop/s,0.256 TFlop/s,"55,296",False,False,Super-UX,False,False,False,False,False
+77,SX-5/32M2,NEC,32,0 GB,NEC  250MHz,Multi-stage crossbar,0.2414 TFlop/s,0.256 TFlop/s,"55,296",False,False,Super-UX,False,False,False,False,False
+78,SX-5/32H2,NEC,32,0 GB,NEC  250MHz,Multi-stage crossbar,0.2414 TFlop/s,0.256 TFlop/s,"55,296",False,False,Super-UX,False,False,False,False,False
+79,LosLobos,IBM,512,0 GB,Pentium 3  735MHz,Fast Ethernet,0.237 TFlop/s,0.3753 TFlop/s,"150,000",False,False,Linux,False,False,False,False,"20,000"
+80,T3E1200,Cray/HPE,284,0 GB,EV56  598MHz,3-D Torus,0.235 TFlop/s,0.3408 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+81,T3E,Cray/HPE,540,0 GB,EV5  300MHz,3-D Torus,0.234 TFlop/s,0.324 TFlop/s,"86,400",False,False,UNICOS,False,False,False,False,"14,400"
+82,T3E,Cray/HPE,540,0 GB,EV5  300MHz,3-D Torus,0.234 TFlop/s,0.324 TFlop/s,"86,400",False,False,UNICOS,False,False,False,False,"14,400"
+83,CPlant/Siberia Cluster,Self-made,580,0 GB,EV6  500MHz,Myrinet,0.2326 TFlop/s,0.58 TFlop/s,False,False,False,N/A,False,False,False,False,False
+84,SR2201/1024,Hitachi,"1,024",0 GB,HARP-1E  150MHz,Hyper crossbar,0.2324 TFlop/s,0.3072 TFlop/s,"155,520",False,False,HI-UX/MPP,False,False,False,False,"34,560"
+85,Numerical Wind Tunnel,Fujitsu,167,0 GB,Fujitsu  105MHz,Full distributed crossbar,0.229 TFlop/s,0.28126 TFlop/s,"66,132",False,False,UXP/V,False,False,False,498.00 kW,"18,018"
+86,SR8000/32,Hitachi,32,0 GB,Hitachi SR8000  250MHz,Multi-dimensional crossbar,0.229 TFlop/s,0.256 TFlop/s,"65,000",False,False,HI-UX/MPP,False,False,False,False,"5,632"
+87,T3E1200,Cray/HPE,268,0 GB,EV56  598MHz,3-D Torus,0.22177 TFlop/s,0.3216 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+88,T3E900,Cray/HPE,348,0 GB,EV5  450MHz,3-D Torus,0.218 TFlop/s,0.3132 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+89,VPP700/116,Fujitsu,116,0 GB,Fujitsu  137MHz,Full distributed crossbar,0.213 TFlop/s,0.2552 TFlop/s,"111,360",False,False,UXP/V,False,False,False,False,"18,560"
+90,SP Power3 375 MHz,IBM,210,0 GB,POWER3  375MHz,SP Switch,0.212 TFlop/s,0.315 TFlop/s,False,False,False,AIX,False,False,False,False,False
+91,AlphaServer SC ES40/EV67,HP,232,0 GB,EV67  666MHz,Quadrics,0.211 TFlop/s,0.30933 TFlop/s,"120,000",False,False,Tru64 UNIX,False,False,False,False,False
+92,SP PC604e 332 MHz,IBM,512,0 GB,PowerPC 604e  332MHz,SP Switch,0.2102 TFlop/s,0.3399 TFlop/s,"100,000",False,False,AIX,False,False,False,False,"20,872"
+93,SP Power3 375 MHz,IBM,206,0 GB,POWER3  375MHz,SP Switch,0.208 TFlop/s,0.309 TFlop/s,False,False,False,AIX,False,False,False,False,False
+94,V2600/HyperPlex,HP,256,0 GB,PA-8600  549MHz,HyperPlex,0.196 TFlop/s,0.5632 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+95,ACL-276 667 MHz,HPTi,276,0 GB,EV67  666MHz,Myrinet,0.196 TFlop/s,0.368 TFlop/s,"80,000",False,False,N/A,False,False,False,False,False
+96,ORIGIN 2000 300 MHz,HPE,512,0 GB,R12000  300MHz,Hypercube,0.2414 TFlop/s,0.3072 TFlop/s,"147,456",False,False,Linux,False,False,False,False,"33,984"
+97,ORIGIN 2000 300 MHz,HPE,512,0 GB,R12000  300MHz,Hypercube,0.2414 TFlop/s,0.3072 TFlop/s,"147,456",False,False,Linux,False,False,False,False,"33,984"
+98,SP PC604e 332 MHz,IBM,440,0 GB,PowerPC 604e  332MHz,SP Switch,0.181 TFlop/s,0.2921 TFlop/s,False,False,False,AIX,False,False,False,False,False
+99,SX-5/24M2,NEC,24,0 GB,NEC  250MHz,Multi-stage crossbar,0.183 TFlop/s,0.192 TFlop/s,False,False,False,Super-UX,False,False,False,False,False
+100,SP P2SC 120/135 MHz,IBM,512,0 GB,Power  120MHz,SP Switch,0.18091 TFlop/s,0.24832 TFlop/s,"62,000",False,False,AIX,False,False,False,False,False
+101,SP Power3 375 MHz,IBM,168,0 GB,POWER3  375MHz,SP Switch,0.171 TFlop/s,0.252 TFlop/s,False,False,False,AIX,False,False,False,False,False
+102,SP Power3 375 MHz,IBM,168,0 GB,POWER3  375MHz,SP Switch,0.171 TFlop/s,0.252 TFlop/s,False,False,False,AIX,False,False,False,False,False
+103,SP Power3 375 MHz,IBM,168,0 GB,POWER3  375MHz,SP Switch,0.171 TFlop/s,0.252 TFlop/s,False,False,False,AIX,False,False,False,False,False
+104,SP Power3 375 MHz,IBM,168,0 GB,POWER3  375MHz,SP Switch,0.171 TFlop/s,0.252 TFlop/s,False,False,False,AIX,False,False,False,False,False
+105,T3E900,Cray/HPE,268,0 GB,EV5  450MHz,3-D Torus,0.169 TFlop/s,0.2412 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+106,T3E900,Cray/HPE,268,0 GB,EV5  450MHz,3-D Torus,0.169 TFlop/s,0.2412 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+107,SP S80s 450 MHz,IBM,510,0 GB,RS64 III  450MHz,,0.1678 TFlop/s,0.459 TFlop/s,"113,000",False,False,AIX,False,False,False,False,"31,000"
+108,SP Power3 375 MHz,IBM,160,0 GB,POWER3  375MHz,SP Switch,0.164 TFlop/s,0.24 TFlop/s,False,False,False,AIX,False,False,False,False,False
+109,SP Power3 375 MHz,IBM,160,0 GB,POWER3  375MHz,SP Switch,0.164 TFlop/s,0.24 TFlop/s,False,False,False,AIX,False,False,False,False,False
+110,SP Power3 375 MHz,IBM,160,0 GB,POWER3  375MHz,SP Switch,0.164 TFlop/s,0.24 TFlop/s,False,False,False,AIX,False,False,False,False,False
+111,SP PC604e 332 MHz,IBM,396,0 GB,PowerPC 604e  332MHz,SP Switch,0.163 TFlop/s,0.2628 TFlop/s,False,False,False,AIX,False,False,False,False,False
+112,SP PC604e 332 MHz,IBM,392,0 GB,PowerPC 604e  332MHz,SP Switch,0.162 TFlop/s,0.2602 TFlop/s,False,False,False,AIX,False,False,False,False,False
+113,SP PC604e 332 MHz,IBM,392,0 GB,PowerPC 604e  332MHz,SP Switch,0.162 TFlop/s,0.2602 TFlop/s,False,False,False,AIX,False,False,False,False,False
+114,SP Power3 375 MHz,IBM,156,0 GB,POWER3  375MHz,SP Switch,0.16 TFlop/s,0.234 TFlop/s,False,False,False,AIX,False,False,False,False,False
+115,SP Power3 375 MHz 16 way,IBM,144,0 GB,POWER3  375MHz,SP Switch,0.156 TFlop/s,0.216 TFlop/s,False,False,False,AIX,False,False,False,False,False
+116,SP Power3 375 MHz,IBM,150,0 GB,POWER3  375MHz,SP Switch,0.154 TFlop/s,0.225 TFlop/s,False,False,False,AIX,False,False,False,False,False
+117,SP Power3 375 MHz,IBM,148,0 GB,POWER3  375MHz,SP Switch,0.152 TFlop/s,0.222 TFlop/s,False,False,False,AIX,False,False,False,False,False
+118,ORIGIN 2000,HPE,512,0 GB,R10000  195MHz,Hypercube,0.152 TFlop/s,0.19968 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+119,SP Power3 200 MHz,IBM,260,0 GB,POWER3  200MHz,SP Switch,0.1515 TFlop/s,0.208 TFlop/s,False,False,False,AIX,False,False,False,False,False
+120,SP PC604e 332 MHz,IBM,364,0 GB,PowerPC 604e  332MHz,SP Switch,0.151 TFlop/s,0.2416 TFlop/s,False,False,False,AIX,False,False,False,False,False
+121,SP Power3 200 MHz,IBM,256,0 GB,POWER3  200MHz,SP Switch,0.1493 TFlop/s,0.2048 TFlop/s,"100,000",False,False,AIX,False,False,False,False,"18,500"
+122,SP Power3 375 MHz,IBM,144,0 GB,POWER3  375MHz,SP Switch,0.148 TFlop/s,0.216 TFlop/s,False,False,False,AIX,False,False,False,False,False
+123,SP Power3 375 MHz,IBM,142,0 GB,POWER3  375MHz,SP Switch,0.146 TFlop/s,0.213 TFlop/s,False,False,False,AIX,False,False,False,False,False
+124,SR8000/20,Hitachi,20,0 GB,Hitachi SR8000  250MHz,Multi-dimensional crossbar,0.144 TFlop/s,0.16 TFlop/s,"48,000",False,False,HI-UX/MPP,False,False,False,False,"4,000"
+125,CLIC PIII 800 MHz,Self-made,530,0 GB,Pentium 3  800MHz,Fast Ethernet,0.2216 TFlop/s,0.424 TFlop/s,"176,640",False,False,Linux,False,False,False,False,"28,272"
+126,SP S80s 450 MHz,IBM,294,0 GB,RS64 III  450MHz,,0.139 TFlop/s,0.2646 TFlop/s,False,False,False,AIX,False,False,False,False,False
+127,VPP5000/15,Fujitsu,15,0 GB,Fujitsu  300MHz,Full distributed crossbar,0.139 TFlop/s,0.144 TFlop/s,False,False,False,UXP/V,False,False,False,False,False
+128,VPP5000/15,Fujitsu,15,0 GB,Fujitsu  300MHz,Full distributed crossbar,0.139 TFlop/s,0.144 TFlop/s,False,False,False,UXP/V,False,False,False,False,False
+129,SP PC604e 332 MHz,IBM,452,0 GB,PowerPC 604e  332MHz,SP Switch,0.138 TFlop/s,0.3001 TFlop/s,False,False,False,AIX,False,False,False,False,False
+130,SP PC604e 332 MHz,IBM,452,0 GB,PowerPC 604e  332MHz,SP Switch,0.138 TFlop/s,0.3001 TFlop/s,False,False,False,AIX,False,False,False,False,False
+131,SP Power3 222 MHz,IBM,224,0 GB,POWER3  222MHz,SP Switch,0.138 TFlop/s,0.1989 TFlop/s,False,False,False,AIX,False,False,False,False,False
+132,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+133,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+134,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+135,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+136,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+137,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+138,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+139,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+140,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+141,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+142,HPC 10000 400 MHz Cluster,Sun,256,0 GB,UltraSPARC II  400MHz,,0.1371 TFlop/s,0.2048 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+143,SP Power3 375 MHz,IBM,132,0 GB,POWER3  375MHz,SP Switch,0.136 TFlop/s,0.198 TFlop/s,False,False,False,AIX,False,False,False,False,False
+144,SP PC604e 332 MHz,IBM,320,0 GB,PowerPC 604e  332MHz,SP Switch,0.133 TFlop/s,0.2124 TFlop/s,False,False,False,AIX,False,False,False,False,False
+145,SP PC604e 332 MHz,IBM,320,0 GB,PowerPC 604e  332MHz,SP Switch,0.133 TFlop/s,0.2124 TFlop/s,False,False,False,AIX,False,False,False,False,False
+146,SP Power3 375 MHz,IBM,128,0 GB,POWER3  375MHz,SP Switch,0.132 TFlop/s,0.192 TFlop/s,"107,000",False,False,AIX,False,False,False,False,"15,400"
+147,SP Power3 375 MHz,IBM,128,0 GB,POWER3  375MHz,SP Switch,0.132 TFlop/s,0.192 TFlop/s,"107,000",False,False,AIX,False,False,False,False,"15,400"
+148,SP Power3 375 MHz,IBM,128,0 GB,POWER3  375MHz,SP Switch,0.132 TFlop/s,0.192 TFlop/s,"107,000",False,False,AIX,False,False,False,False,"15,400"
+149,SP Power3 375 MHz,IBM,126,0 GB,POWER3  375MHz,SP Switch,0.13 TFlop/s,0.189 TFlop/s,False,False,False,AIX,False,False,False,False,False
+150,SP Power3 375 MHz,IBM,124,0 GB,POWER3  375MHz,SP Switch,0.128 TFlop/s,0.186 TFlop/s,False,False,False,AIX,False,False,False,False,False
+151,SP PC604e 332 MHz,IBM,302,0 GB,PowerPC 604e  332MHz,SP Switch,0.126 TFlop/s,0.2005 TFlop/s,False,False,False,AIX,False,False,False,False,False
+152,SP Power3 200 MHz,IBM,212,0 GB,POWER3  200MHz,SP Switch,0.1244 TFlop/s,0.1696 TFlop/s,False,False,False,AIX,False,False,False,False,False
+153,SP PC604e 332 MHz,IBM,298,0 GB,PowerPC 604e  332MHz,SP Switch,0.124 TFlop/s,0.1978 TFlop/s,False,False,False,AIX,False,False,False,False,False
+154,SP Power3 375 MHz,IBM,120,0 GB,POWER3  375MHz,SP Switch,0.124 TFlop/s,0.18 TFlop/s,False,False,False,AIX,False,False,False,False,False
+155,SP Power3 375 MHz,IBM,120,0 GB,POWER3  375MHz,SP Switch,0.124 TFlop/s,0.18 TFlop/s,False,False,False,AIX,False,False,False,False,False
+156,SX-5/16A,NEC,16,0 GB,NEC  250MHz,Multi-stage crossbar,0.1258 TFlop/s,0.128 TFlop/s,"55,296",False,False,Super-UX,False,False,False,False,False
+157,SX-5/16A,NEC,16,0 GB,NEC  250MHz,Multi-stage crossbar,0.1258 TFlop/s,0.128 TFlop/s,"55,296",False,False,Super-UX,False,False,False,False,False
+158,SX-5/16A,NEC,16,0 GB,NEC  250MHz,Multi-stage crossbar,0.1258 TFlop/s,0.128 TFlop/s,"55,296",False,False,Super-UX,False,False,False,False,False
+159,SX-5/16A,NEC,16,0 GB,NEC  250MHz,Multi-stage crossbar,0.1258 TFlop/s,0.128 TFlop/s,"55,296",False,False,Super-UX,False,False,False,False,False
+160,SX-5/16A,NEC,16,0 GB,NEC  250MHz,Multi-stage crossbar,0.1258 TFlop/s,0.128 TFlop/s,"55,296",False,False,Super-UX,False,False,False,False,False
+161,SP PC604e 332 MHz,IBM,292,0 GB,PowerPC 604e  332MHz,SP Switch,0.122 TFlop/s,0.1938 TFlop/s,False,False,False,AIX,False,False,False,False,False
+162,SX-4/64M2,NEC,64,0 GB,NEC  250MHz,Multi-stage crossbar,0.122 TFlop/s,0.128 TFlop/s,"30,080",False,False,EWS-UX/V,False,False,False,False,"4,352"
+163,SX-4/64M2,NEC,64,0 GB,NEC  250MHz,Multi-stage crossbar,0.122 TFlop/s,0.128 TFlop/s,"30,080",False,False,EWS-UX/V,False,False,False,False,"4,352"
+164,SX-4/64M2,NEC,64,0 GB,NEC  250MHz,Multi-stage crossbar,0.122 TFlop/s,0.128 TFlop/s,"30,080",False,False,EWS-UX/V,False,False,False,False,"4,352"
+165,HPC 420 400 MHz Cluster,Sun,180,0 GB,Sparc  200MHz,,0.1219 TFlop/s,0.144 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+166,SX-5/32Me2,NEC,32,0 GB,NEC  250MHz,Multi-stage crossbar,0.121 TFlop/s,0.128 TFlop/s,False,False,False,Super-UX,False,False,False,False,False
+167,SP PC604e 332 MHz,IBM,288,0 GB,PowerPC 604e  332MHz,SP Switch,0.12 TFlop/s,0.1913 TFlop/s,False,False,False,AIX,False,False,False,False,False
+168,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.11816 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+169,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.11816 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+170,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.11816 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+171,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.11816 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+172,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.11816 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+173,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.11816 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+174,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.11816 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+175,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.11816 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+176,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.11816 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+177,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.1181 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+178,HPC 10000 400 MHz Cluster,Sun,192,0 GB,UltraSPARC II  400MHz,,0.1181 TFlop/s,0.1536 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+179,T3E,Cray/HPE,268,0 GB,EV5  300MHz,3-D Torus,0.117 TFlop/s,0.1608 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+180,T3E,Cray/HPE,268,0 GB,EV5  300MHz,3-D Torus,0.117 TFlop/s,0.1608 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+181,T3E,Cray/HPE,268,0 GB,EV5  300MHz,3-D Torus,0.117 TFlop/s,0.1608 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+182,T3E,Cray/HPE,268,0 GB,EV5  300MHz,3-D Torus,0.117 TFlop/s,0.1608 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+183,SP Power3 375 MHz,IBM,112,0 GB,POWER3  375MHz,SP Switch,0.116 TFlop/s,0.168 TFlop/s,False,False,False,AIX,False,False,False,False,False
+184,SR8000/16,Hitachi,16,0 GB,Hitachi SR8000  250MHz,Multi-dimensional crossbar,0.115 TFlop/s,0.128 TFlop/s,"42,928",False,False,HI-UX/MPP,False,False,False,False,"3,584"
+185,T3E1350,Cray/HPE,132,0 GB,EV56  675MHz,3-D Torus,0.1139 TFlop/s,0.1782 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+186,SP PC604e 332 MHz,IBM,268,0 GB,PowerPC 604e  332MHz,SP Switch,0.112 TFlop/s,0.1779 TFlop/s,False,False,False,AIX,False,False,False,False,False
+187,HPC 420 450 MHz Cluster,Sun,160,0 GB,Sparc  450MHz,,0.11001 TFlop/s,0.144 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+188,VPP700/56,Fujitsu,56,0 GB,Fujitsu  137MHz,Full distributed crossbar,0.11 TFlop/s,0.1232 TFlop/s,"109,200",False,False,UXP/V,False,False,False,False,"10,752"
+189,SP P2SC 160 MHz,IBM,252,0 GB,POWER2 SC  160MHz,SP Switch,0.1099 TFlop/s,0.1612 TFlop/s,False,False,False,AIX,False,False,False,False,False
+190,T3E1200,Cray/HPE,132,0 GB,EV56  598MHz,3-D Torus,0.1093 TFlop/s,0.1584 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+191,SP PC604e 332 MHz,IBM,260,0 GB,PowerPC 604e  332MHz,SP Switch,0.109 TFlop/s,0.1726 TFlop/s,False,False,False,AIX,False,False,False,False,False
+192,SP PC604e 332 MHz,IBM,256,0 GB,PowerPC 604e  332MHz,SP Switch,0.1081 TFlop/s,0.16998 TFlop/s,"81,460",False,False,AIX,False,False,False,False,"14,180"
+193,SP PC604e 332 MHz,IBM,256,0 GB,PowerPC 604e  332MHz,SP Switch,0.1081 TFlop/s,0.16998 TFlop/s,"81,460",False,False,AIX,False,False,False,False,"14,180"
+194,SP P2SC 160 MHz,IBM,243,0 GB,POWER2 SC  160MHz,SP Switch,0.1061 TFlop/s,0.15552 TFlop/s,False,False,False,AIX,False,False,False,False,False
+195,VPP700/52,Fujitsu/SNI,52,0 GB,Fujitsu  137MHz,Full distributed crossbar,0.106 TFlop/s,0.1144 TFlop/s,False,False,False,UXP/V,False,False,False,False,False
+196,HPC 10000 400 MHz Cluster,Sun,168,0 GB,UltraSPARC II  400MHz,,0.10532 TFlop/s,0.1344 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+197,SP Power3 375 MHz,IBM,100,0 GB,POWER3  375MHz,SP Switch,0.104 TFlop/s,0.15 TFlop/s,False,False,False,AIX,False,False,False,False,False
+198,SP PC604e 332 MHz,IBM,246,0 GB,PowerPC 604e  332MHz,SP Switch,0.103 TFlop/s,0.16334 TFlop/s,False,False,False,AIX,False,False,False,False,False
+199,SP PC604e 332 MHz,IBM,242,0 GB,PowerPC 604e  332MHz,SP Switch,0.102 TFlop/s,0.16068 TFlop/s,False,False,False,AIX,False,False,False,False,False
+200,ORIGIN 2000 300 MHz,HPE,256,0 GB,R12000  300MHz,Hypercube,0.121 TFlop/s,0.1536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+201,ORIGIN 2000 300 MHz,HPE,256,0 GB,R12000  300MHz,Hypercube,0.121 TFlop/s,0.1536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+202,ORIGIN 2000 300 MHz,HPE,256,0 GB,R12000  300MHz,Hypercube,0.121 TFlop/s,0.1536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+203,ORIGIN 2000 250 MHz,HPE,256,0 GB,R10000  250MHz,Hypercube,0.1014 TFlop/s,0.128 TFlop/s,"86,400",False,False,IRIX,False,False,False,False,"13,248"
+204,T3D MC1024-8,Cray/HPE,"1,024",0 GB,EV4  149MHz,3-D Torus,0.1005 TFlop/s,0.1536 TFlop/s,"81,920",False,False,UNICOS,False,False,False,False,"10,224"
+205,SP Power3 375 MHz,IBM,96,0 GB,POWER3  375MHz,SP Switch,0.1 TFlop/s,0.144 TFlop/s,False,False,False,AIX,False,False,False,False,False
+206,SP Power3 375 MHz,IBM,96,0 GB,POWER3  375MHz,SP Switch,0.1 TFlop/s,0.144 TFlop/s,False,False,False,AIX,False,False,False,False,False
+207,SP Power3 375 MHz,IBM,96,0 GB,POWER3  375MHz,SP Switch,0.1 TFlop/s,0.144 TFlop/s,False,False,False,AIX,False,False,False,False,False
+208,SP Power3 375 MHz,IBM,96,0 GB,POWER3  375MHz,SP Switch,0.1 TFlop/s,0.144 TFlop/s,False,False,False,AIX,False,False,False,False,False
+209,ALiCE EV67 616 MHz,HP,128,0 GB,EV67  617MHz,Myrinet,0.108 TFlop/s,0.1577 TFlop/s,"56,000",False,False,SUSE Linux,False,False,False,False,False
+210,ORIGIN 2000 250/300 MHz - Eth-Cluster,HPE,256,0 GB,MIPS  250MHz,Ethernet,0.0988 TFlop/s,0.14 TFlop/s,"81,920",False,False,IRIX,False,False,False,False,False
+211,SP Power3 375 MHz,IBM,94,0 GB,POWER3  375MHz,SP Switch,0.0982 TFlop/s,0.141 TFlop/s,False,False,False,AIX,False,False,False,False,False
+212,SP PC604e 332 MHz,IBM,232,0 GB,PowerPC 604e  332MHz,SP Switch,0.098 TFlop/s,0.15404 TFlop/s,False,False,False,AIX,False,False,False,False,False
+213,VPP700/48E,Fujitsu,48,0 GB,Fujitsu  150MHz,Full distributed crossbar,0.0975 TFlop/s,0.1152 TFlop/s,False,False,False,UXP/V,False,False,False,False,False
+214,Kepler PIII 650 MHz,Self-made,196,0 GB,Pentium 3  650MHz,Fast Ethernet,0.0962 TFlop/s,0.1274 TFlop/s,"109,760",False,False,Linux,False,False,False,False,"12,320"
+215,SP PC604e 332 MHz,IBM,226,0 GB,PowerPC 604e  332MHz,SP Switch,0.0954 TFlop/s,0.15006 TFlop/s,False,False,False,AIX,False,False,False,False,False
+216,SP P2SC 135 MHz,IBM,256,0 GB,POWER2 SC  135MHz,SP Switch,0.09419 TFlop/s,0.13824 TFlop/s,False,False,False,AIX,False,False,False,False,False
+217,SP P2SC 135 MHz,IBM,256,0 GB,POWER2 SC  135MHz,SP Switch,0.09419 TFlop/s,0.13824 TFlop/s,False,False,False,AIX,False,False,False,False,False
+218,ORIGIN 2000 250 MHz - Eth-Cluster,HPE,256,0 GB,R10000  250MHz,Ethernet,0.09299 TFlop/s,0.128 TFlop/s,"81,920",False,False,IRIX,False,False,False,False,"81,920"
+219,ORIGIN 2000 250 MHz - Eth-Cluster,HPE,256,0 GB,R10000  250MHz,Ethernet,0.09299 TFlop/s,0.128 TFlop/s,"81,920",False,False,IRIX,False,False,False,False,"81,920"
+220,ORIGIN 2000 250 MHz - Eth-Cluster,HPE,256,0 GB,R10000  250MHz,Ethernet,0.09299 TFlop/s,0.128 TFlop/s,"81,920",False,False,IRIX,False,False,False,False,"81,920"
+221,SP PC604e 332 MHz,IBM,218,0 GB,PowerPC 604e  332MHz,SP Switch,0.0921 TFlop/s,0.14475 TFlop/s,False,False,False,AIX,False,False,False,False,False
+222,SP Power3 375 MHz,IBM,88,0 GB,POWER3  375MHz,SP Switch,0.0921 TFlop/s,0.132 TFlop/s,False,False,False,AIX,False,False,False,False,False
+223,SP Power3 375 MHz,IBM,88,0 GB,POWER3  375MHz,SP Switch,0.0921 TFlop/s,0.132 TFlop/s,False,False,False,AIX,False,False,False,False,False
+224,SP Power3 375 MHz,IBM,88,0 GB,POWER3  375MHz,SP Switch,0.0921 TFlop/s,0.132 TFlop/s,False,False,False,AIX,False,False,False,False,False
+225,SP Power3 375 MHz,IBM,88,0 GB,POWER3  375MHz,SP Switch,0.0921 TFlop/s,0.132 TFlop/s,False,False,False,AIX,False,False,False,False,False
+226,T3E750,Cray/HPE,172,0 GB,EV5  374MHz,3-D Torus,0.0898 TFlop/s,0.129 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+227,HPC 10000 400 MHz Cluster,Sun,144,0 GB,UltraSPARC II  400MHz,,0.08969 TFlop/s,0.1152 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+228,HPC 10000 400 MHz Cluster,Sun,144,0 GB,UltraSPARC II  400MHz,,0.08969 TFlop/s,0.1152 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+229,ORIGIN 2000 250 MHz - Eth-Cluster,HPE,512,0 GB,R10000  250MHz,Ethernet,0.089 TFlop/s,0.256 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+230,ORIGIN 2000 250 MHz - Eth-Cluster,HPE,256,0 GB,R10000  250MHz,Ethernet,0.089 TFlop/s,0.128 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+231,ORIGIN 2000 250 MHz - Eth-Cluster,HPE,256,0 GB,R10000  250MHz,Ethernet,0.089 TFlop/s,0.128 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+232,ORIGIN 2000 250 MHz - Eth-Cluster,HPE,256,0 GB,R10000  250MHz,Ethernet,0.089 TFlop/s,0.128 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+233,ORIGIN 2000 250 MHz - Eth-Cluster,HPE,256,0 GB,R10000  250MHz,Ethernet,0.089 TFlop/s,0.128 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+234,SP PC604e 332 MHz,IBM,210,0 GB,PowerPC 604e  332MHz,SP Switch,0.0887 TFlop/s,0.13944 TFlop/s,False,False,False,AIX,False,False,False,False,False
+235,SP PC604e 332 MHz,IBM,208,0 GB,PowerPC 604e  332MHz,SP Switch,0.0879 TFlop/s,0.13811 TFlop/s,False,False,False,AIX,False,False,False,False,False
+236,AlphaServer GS320 731 MHz,HP,128,0 GB,Alpha  731MHz,Proprietary,0.08751 TFlop/s,0.187 TFlop/s,"110,000",False,False,Tru64 UNIX,False,False,False,False,"20,000"
+237,SP PC604e 332 MHz,IBM,206,0 GB,PowerPC 604e  332MHz,SP Switch,0.087 TFlop/s,0.13678 TFlop/s,False,False,False,AIX,False,False,False,False,False
+238,SP PC604e 332 MHz,IBM,206,0 GB,PowerPC 604e  332MHz,SP Switch,0.087 TFlop/s,0.13678 TFlop/s,False,False,False,AIX,False,False,False,False,False
+239,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+240,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+241,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+242,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+243,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+244,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+245,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+246,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+247,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+248,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+249,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+250,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+251,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+252,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+253,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+254,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+255,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+256,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+257,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+258,ORIGIN 3000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08544 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+259,SP PC604e 332 MHz,IBM,200,0 GB,PowerPC 604e  332MHz,SP Switch,0.0845 TFlop/s,0.1328 TFlop/s,False,False,False,AIX,False,False,False,False,False
+260,SP PC604e 332 MHz,IBM,200,0 GB,PowerPC 604e  332MHz,SP Switch,0.0845 TFlop/s,0.1328 TFlop/s,False,False,False,AIX,False,False,False,False,False
+261,SP PC604e 332 MHz,IBM,200,0 GB,PowerPC 604e  332MHz,SP Switch,0.0845 TFlop/s,0.1328 TFlop/s,False,False,False,AIX,False,False,False,False,False
+262,SP PC604e 332 MHz,IBM,200,0 GB,PowerPC 604e  332MHz,SP Switch,0.0845 TFlop/s,0.1328 TFlop/s,False,False,False,AIX,False,False,False,False,False
+263,SP Power3 375 MHz,IBM,80,0 GB,POWER3  375MHz,SP Switch,0.084 TFlop/s,0.12 TFlop/s,False,False,False,AIX,False,False,False,False,False
+264,SP Power3 375 MHz,IBM,80,0 GB,POWER3  375MHz,SP Switch,0.084 TFlop/s,0.12 TFlop/s,False,False,False,AIX,False,False,False,False,False
+265,SP Power3 375 MHz,IBM,80,0 GB,POWER3  375MHz,SP Switch,0.084 TFlop/s,0.12 TFlop/s,False,False,False,AIX,False,False,False,False,False
+266,SP Power3 375 MHz,IBM,80,0 GB,POWER3  375MHz,SP Switch,0.084 TFlop/s,0.12 TFlop/s,False,False,False,AIX,False,False,False,False,False
+267,SP Power3 375 MHz,IBM,80,0 GB,POWER3  375MHz,SP Switch,0.084 TFlop/s,0.12 TFlop/s,False,False,False,AIX,False,False,False,False,False
+268,SP Power3 375 MHz,IBM,80,0 GB,POWER3  375MHz,SP Switch,0.084 TFlop/s,0.12 TFlop/s,False,False,False,AIX,False,False,False,False,False
+269,SP Power3 375 MHz,IBM,80,0 GB,POWER3  375MHz,SP Switch,0.084 TFlop/s,0.12 TFlop/s,False,False,False,AIX,False,False,False,False,False
+270,SP Power3 375 MHz,IBM,80,0 GB,POWER3  375MHz,SP Switch,0.084 TFlop/s,0.12 TFlop/s,False,False,False,AIX,False,False,False,False,False
+271,SP PC604e 332 MHz,IBM,196,0 GB,PowerPC 604e  332MHz,SP Switch,0.0828 TFlop/s,0.13014 TFlop/s,False,False,False,AIX,False,False,False,False,False
+272,T3E900,Cray/HPE,132,0 GB,EV5  450MHz,3-D Torus,0.0821 TFlop/s,0.1188 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+273,T3E900,Cray/HPE,132,0 GB,EV5  450MHz,3-D Torus,0.0821 TFlop/s,0.1188 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+274,SP PC604e 332 MHz,IBM,194,0 GB,PowerPC 604e  332MHz,SP Switch,0.082 TFlop/s,0.12881 TFlop/s,False,False,False,AIX,False,False,False,False,False
+275,ORIGIN 2000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08176 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+276,ORIGIN 2000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08176 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+277,ORIGIN 2000 400 MHz,HPE,128,0 GB,R12000  400MHz,Hypercube,0.08176 TFlop/s,0.1024 TFlop/s,"65,536",False,False,Linux,False,False,False,False,False
+278,T3E,Cray/HPE,188,0 GB,EV5  300MHz,3-D Torus,0.0813 TFlop/s,0.1128 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+279,SP PC604e 332 MHz,IBM,192,0 GB,PowerPC 604e  332MHz,SP Switch,0.0811 TFlop/s,0.12748 TFlop/s,False,False,False,AIX,False,False,False,False,False
+280,SP Power3 222 MHz,IBM,128,0 GB,POWER3  222MHz,SP Switch,0.08083 TFlop/s,0.1136 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"15,000"
+281,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+282,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+283,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+284,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+285,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+286,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+287,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+288,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+289,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+290,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+291,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+292,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+293,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+294,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+295,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+296,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+297,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+298,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+299,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+300,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+301,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+302,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+303,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+304,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+305,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+306,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+307,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+308,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+309,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+310,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+311,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+312,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+313,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+314,HPC 10000 400 MHz Cluster,Sun,128,0 GB,UltraSPARC II  400MHz,,0.0801 TFlop/s,0.1024 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,752"
+315,SP Power3 375 MHz,IBM,76,0 GB,POWER3  375MHz,SP Switch,0.0799 TFlop/s,0.114 TFlop/s,False,False,False,AIX,False,False,False,False,False
+316,SP Power3 375 MHz,IBM,76,0 GB,POWER3  375MHz,SP Switch,0.0799 TFlop/s,0.114 TFlop/s,False,False,False,AIX,False,False,False,False,False
+317,SP Power3 375 MHz,IBM,76,0 GB,POWER3  375MHz,SP Switch,0.0799 TFlop/s,0.114 TFlop/s,False,False,False,AIX,False,False,False,False,False
+318,SP PC604e 332 MHz,IBM,188,0 GB,PowerPC 604e  332MHz,SP Switch,0.0795 TFlop/s,0.12483 TFlop/s,False,False,False,AIX,False,False,False,False,False
+319,SP P2SC 160 MHz,IBM,178,0 GB,POWER2 SC  160MHz,SP Switch,0.0784 TFlop/s,0.1139 TFlop/s,False,False,False,AIX,False,False,False,False,False
+320,SP Power3 375 MHz,IBM,74,0 GB,POWER3  375MHz,SP Switch,0.0779 TFlop/s,0.111 TFlop/s,False,False,False,AIX,False,False,False,False,False
+321,SP Power3 375 MHz,IBM,74,0 GB,POWER3  375MHz,SP Switch,0.0779 TFlop/s,0.111 TFlop/s,False,False,False,AIX,False,False,False,False,False
+322,SP PC604e 332 MHz,IBM,184,0 GB,PowerPC 604e  332MHz,SP Switch,0.0778 TFlop/s,0.12217 TFlop/s,False,False,False,AIX,False,False,False,False,False
+323,SP PC604e 332 MHz,IBM,184,0 GB,PowerPC 604e  332MHz,SP Switch,0.0778 TFlop/s,0.12217 TFlop/s,False,False,False,AIX,False,False,False,False,False
+324,SX-4/40H2,NEC,40,0 GB,NEC  250MHz,Multi-stage crossbar,0.0772 TFlop/s,0.08 TFlop/s,False,False,False,EWS-UX/V,False,False,False,False,False
+325,HPC 420 450 MHz Cluster,Sun,112,0 GB,Sparc  450MHz,,0.07701 TFlop/s,0.1008 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+326,ORIGIN 2000,HPE,256,0 GB,R10000  195MHz,Hypercube,0.0769 TFlop/s,0.09984 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+327,SP Power3 200 MHz,IBM,128,0 GB,POWER3  200MHz,SP Switch,0.07677 TFlop/s,0.1024 TFlop/s,"89,000",False,False,AIX,False,False,False,False,"11,500"
+328,SP Power3 200 MHz,IBM,128,0 GB,POWER3  200MHz,SP Switch,0.07677 TFlop/s,0.1024 TFlop/s,"89,000",False,False,AIX,False,False,False,False,"11,500"
+329,SP Power3 375 MHz,IBM,72,0 GB,POWER3  375MHz,SP Switch,0.0759 TFlop/s,0.108 TFlop/s,False,False,False,AIX,False,False,False,False,False
+330,SP Power3 375 MHz,IBM,72,0 GB,POWER3  375MHz,SP Switch,0.0759 TFlop/s,0.108 TFlop/s,False,False,False,AIX,False,False,False,False,False
+331,SP Power3 375 MHz,IBM,72,0 GB,POWER3  375MHz,SP Switch,0.0759 TFlop/s,0.108 TFlop/s,False,False,False,AIX,False,False,False,False,False
+332,HPC 10000 400 MHz Cluster,Sun,120,0 GB,UltraSPARC II  400MHz,,0.0758 TFlop/s,0.096 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+333,HPC 10000 400 MHz Cluster,Sun,120,0 GB,UltraSPARC II  400MHz,,0.0758 TFlop/s,0.096 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+334,HPC 10000 400 MHz Cluster,Sun,120,0 GB,UltraSPARC II  400MHz,,0.0758 TFlop/s,0.096 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+335,HPC 10000 400 MHz Cluster,Sun,120,0 GB,UltraSPARC II  400MHz,,0.0758 TFlop/s,0.096 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+336,HPC 10000 400 MHz Cluster,Sun,120,0 GB,UltraSPARC II  400MHz,,0.0758 TFlop/s,0.096 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+337,HPC 10000 400 MHz Cluster,Sun,120,0 GB,UltraSPARC II  400MHz,,0.0758 TFlop/s,0.096 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+338,HPC 10000 400 MHz Cluster,Sun,120,0 GB,UltraSPARC II  400MHz,,0.0758 TFlop/s,0.096 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+339,SP PC604e 332 MHz,IBM,178,0 GB,PowerPC 604e  332MHz,SP Switch,0.0752 TFlop/s,0.11819 TFlop/s,False,False,False,AIX,False,False,False,False,False
+340,T3E,Cray/HPE,172,0 GB,EV5  300MHz,3-D Torus,0.0745 TFlop/s,0.1032 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+341,SP Power3 200 MHz,IBM,124,0 GB,POWER3  200MHz,SP Switch,0.0744 TFlop/s,0.0992 TFlop/s,False,False,False,AIX,False,False,False,False,False
+342,SP Power3 375 MHz,IBM,70,0 GB,POWER3  375MHz,SP Switch,0.0738 TFlop/s,0.105 TFlop/s,False,False,False,AIX,False,False,False,False,False
+343,SP PC604e 332 MHz,IBM,174,0 GB,PowerPC 604e  332MHz,SP Switch,0.0736 TFlop/s,0.1155 TFlop/s,False,False,False,AIX,False,False,False,False,False
+344,SP PC604e 332 MHz,IBM,236,0 GB,PowerPC 604e  332MHz,SP Switch,0.0731 TFlop/s,0.1567 TFlop/s,False,False,False,AIX,False,False,False,False,False
+345,ORIGIN 2000 300 MHz - Eth-Cluster,HPE,160,0 GB,R12000  300MHz,Ethernet,0.07257 TFlop/s,0.096 TFlop/s,"61,440",False,False,IRIX,False,False,False,False,False
+346,SP PC604e 332 MHz,IBM,170,0 GB,PowerPC 604e  332MHz,SP Switch,0.0719 TFlop/s,0.11288 TFlop/s,False,False,False,AIX,False,False,False,False,False
+347,SP Power3 375 MHz,IBM,68,0 GB,POWER3  375MHz,SP Switch,0.0718 TFlop/s,0.102 TFlop/s,False,False,False,AIX,False,False,False,False,False
+348,ORIGIN 2000 400 MHz,HPE,112,0 GB,R12000  400MHz,Hypercube,0.0717 TFlop/s,0.0896 TFlop/s,False,False,False,Linux,False,False,False,False,False
+349,ORIGIN 2000 400 MHz,HPE,112,0 GB,R12000  400MHz,Hypercube,0.0717 TFlop/s,0.0896 TFlop/s,False,False,False,Linux,False,False,False,False,False
+350,T3E,Cray/HPE,164,0 GB,EV5  300MHz,3-D Torus,0.0711 TFlop/s,0.0984 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+351,SP PC604e 332 MHz,IBM,168,0 GB,PowerPC 604e  332MHz,SP Switch,0.071 TFlop/s,0.11155 TFlop/s,False,False,False,AIX,False,False,False,False,False
+352,SP Power3 222 MHz,IBM,112,0 GB,POWER3  222MHz,SP Switch,0.071 TFlop/s,0.0994 TFlop/s,False,False,False,AIX,False,False,False,False,False
+353,SP Power3 375 MHz 16 way,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.0706 TFlop/s,0.096 TFlop/s,"54,000",False,False,AIX,False,False,False,False,"11,000"
+354,SP Power3 375 MHz 16 way,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.0706 TFlop/s,0.096 TFlop/s,"54,000",False,False,AIX,False,False,False,False,"11,000"
+355,SP PC604e 332 MHz,IBM,166,0 GB,PowerPC 604e  332MHz,SP Switch,0.0702 TFlop/s,0.11022 TFlop/s,False,False,False,AIX,False,False,False,False,False
+356,HPC 10000 400 MHz Cluster,Sun,112,0 GB,UltraSPARC II  400MHz,,0.07012 TFlop/s,0.0896 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+357,HPC 10000 400 MHz Cluster,Sun,112,0 GB,UltraSPARC II  400MHz,,0.07012 TFlop/s,0.0896 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+358,HPC 10000 400 MHz Cluster,Sun,112,0 GB,UltraSPARC II  400MHz,,0.07012 TFlop/s,0.0896 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+359,SP Power3 375 MHz,IBM,66,0 GB,POWER3  375MHz,SP Switch,0.0698 TFlop/s,0.099 TFlop/s,False,False,False,AIX,False,False,False,False,False
+360,SP PC604e 332 MHz,IBM,164,0 GB,PowerPC 604e  332MHz,SP Switch,0.0694 TFlop/s,0.10889 TFlop/s,False,False,False,AIX,False,False,False,False,False
+361,SX-4/36H2,NEC,36,0 GB,NEC  250MHz,Multi-stage crossbar,0.0694 TFlop/s,0.072 TFlop/s,False,False,False,EWS-UX/V,False,False,False,False,False
+362,SP2/402,IBM,402,0 GB,POWER2  66MHz,,0.06933 TFlop/s,0.10693 TFlop/s,False,False,False,AIX,False,False,False,False,False
+363,HPC 10000 400 MHz Cluster,Sun,110,0 GB,UltraSPARC II  400MHz,,0.06877 TFlop/s,0.088 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+364,SP PC604e 332 MHz,IBM,162,0 GB,PowerPC 604e  332MHz,SP Switch,0.0685 TFlop/s,0.10756 TFlop/s,False,False,False,AIX,False,False,False,False,False
+365,SP PC604e 332 MHz,IBM,162,0 GB,PowerPC 604e  332MHz,SP Switch,0.0685 TFlop/s,0.10756 TFlop/s,False,False,False,AIX,False,False,False,False,False
+366,SP P2SC 120 MHz,IBM,207,0 GB,POWER2 SC  120MHz,SP Switch,0.0678 TFlop/s,0.09936 TFlop/s,False,False,False,AIX,False,False,False,False,False
+367,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+368,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+369,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+370,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+371,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+372,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+373,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+374,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+375,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+376,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+377,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+378,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+379,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+380,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+381,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+382,SP Power3 375 MHz,IBM,64,0 GB,POWER3  375MHz,SP Switch,0.06778 TFlop/s,0.096 TFlop/s,"76,000",False,False,AIX,False,False,False,False,"10,400"
+383,SP PC604e 332 MHz,IBM,160,0 GB,PowerPC 604e  332MHz,SP Switch,0.0677 TFlop/s,0.10624 TFlop/s,False,False,False,AIX,False,False,False,False,False
+384,SP PC604e 332 MHz,IBM,160,0 GB,PowerPC 604e  332MHz,SP Switch,0.0677 TFlop/s,0.10624 TFlop/s,False,False,False,AIX,False,False,False,False,False
+385,T3E900,Cray/HPE,108,0 GB,EV5  450MHz,3-D Torus,0.0676 TFlop/s,0.0972 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+386,HPC 10000 333 MHz Cluster,Sun,128,0 GB,UltraSPARC II  333MHz,,0.06693 TFlop/s,0.08524 TFlop/s,"57,120",False,False,Solaris,False,False,False,False,"10,080"
+387,SP PC604e 332 MHz,IBM,158,0 GB,PowerPC 604e  332MHz,SP Switch,0.0668 TFlop/s,0.10491 TFlop/s,False,False,False,AIX,False,False,False,False,False
+388,ORIGIN 2000 250 MHz - Eth-Cluster,HPE,192,0 GB,R10000  250MHz,Ethernet,0.0667 TFlop/s,0.096 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+389,ORIGIN 2000 400 MHz,HPE,104,0 GB,R12000  400MHz,Hypercube,0.0666 TFlop/s,0.0832 TFlop/s,False,False,False,Linux,False,False,False,False,False
+390,SP PC604e 332 MHz,IBM,156,0 GB,PowerPC 604e  332MHz,SP Switch,0.066 TFlop/s,0.10358 TFlop/s,False,False,False,AIX,False,False,False,False,False
+391,SP PC604e 332 MHz,IBM,156,0 GB,PowerPC 604e  332MHz,SP Switch,0.066 TFlop/s,0.10358 TFlop/s,False,False,False,AIX,False,False,False,False,False
+392,HPC 420 450 MHz Cluster,Sun,96,0 GB,Sparc  450MHz,,0.0658 TFlop/s,0.0864 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+393,HPC 450 400 MHz Cluster,Sun,96,0 GB,Sparc  200MHz,,0.0658 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+394,SP P2SC 160 MHz,IBM,146,0 GB,POWER2 SC  160MHz,SP Switch,0.0648 TFlop/s,0.09344 TFlop/s,False,False,False,AIX,False,False,False,False,False
+395,HPC 10000 400 MHz Cluster,Sun,104,0 GB,UltraSPARC II  400MHz,,0.06473 TFlop/s,0.0832 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+396,SCore II/PIII 800 MHz,Self-made,132,0 GB,Pentium 3  800MHz,Fast Ethernet,0.0647 TFlop/s,0.1056 TFlop/s,"58,000",False,False,Linux,False,False,False,False,"8,000"
+397,ORIGIN 3000 400 MHz,HPE,96,0 GB,R12000  400MHz,Hypercube,0.0642 TFlop/s,0.0768 TFlop/s,False,False,False,Linux,False,False,False,False,False
+398,N4000 440 MHz/HyperPlex,HP,96,0 GB,PA-8500  440MHz,HyperPlex,0.0638 TFlop/s,0.16896 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+399,N4000 440 MHz/HyperPlex,HP,96,0 GB,PA-8500  440MHz,HyperPlex,0.0638 TFlop/s,0.16896 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+400,N4000 440 MHz/HyperPlex,HP,96,0 GB,PA-8500  440MHz,HyperPlex,0.0638 TFlop/s,0.16896 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+401,AlphaServer SC ES40/EV67,HP,64,0 GB,EV67  666MHz,Quadrics,0.0638 TFlop/s,0.08533 TFlop/s,"53,000",False,False,Tru64 UNIX,False,False,False,False,"9,000"
+402,AlphaServer SC ES40/EV67,HP,64,0 GB,EV67  666MHz,Quadrics,0.0638 TFlop/s,0.08533 TFlop/s,"53,000",False,False,Tru64 UNIX,False,False,False,False,"9,000"
+403,AlphaServer SC ES40/EV67,HP,64,0 GB,EV67  666MHz,Quadrics,0.0638 TFlop/s,0.08533 TFlop/s,"53,000",False,False,Tru64 UNIX,False,False,False,False,"9,000"
+404,SP Power3 375 MHz,IBM,60,0 GB,POWER3  375MHz,SP Switch,0.0636 TFlop/s,0.09 TFlop/s,False,False,False,AIX,False,False,False,False,False
+405,SP Power3 375 MHz,IBM,60,0 GB,POWER3  375MHz,SP Switch,0.0636 TFlop/s,0.09 TFlop/s,False,False,False,AIX,False,False,False,False,False
+406,SP Power3 375 MHz,IBM,60,0 GB,POWER3  375MHz,SP Switch,0.0636 TFlop/s,0.09 TFlop/s,False,False,False,AIX,False,False,False,False,False
+407,SP Power3 375 MHz,IBM,60,0 GB,POWER3  375MHz,SP Switch,0.0636 TFlop/s,0.09 TFlop/s,False,False,False,AIX,False,False,False,False,False
+408,ORIGIN 2000,HPE,208,0 GB,R10000  195MHz,Hypercube,0.0631 TFlop/s,0.08112 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+409,SP Power3 200 MHz,IBM,104,0 GB,POWER3  200MHz,SP Switch,0.0629 TFlop/s,0.0832 TFlop/s,False,False,False,AIX,False,False,False,False,False
+410,SP PC604e 332 MHz,IBM,148,0 GB,PowerPC 604e  332MHz,SP Switch,0.0626 TFlop/s,0.09827 TFlop/s,False,False,False,AIX,False,False,False,False,False
+411,SP PC604e 332 MHz,IBM,148,0 GB,PowerPC 604e  332MHz,SP Switch,0.0626 TFlop/s,0.09827 TFlop/s,False,False,False,AIX,False,False,False,False,False
+412,SP PC604e 332 MHz,IBM,148,0 GB,PowerPC 604e  332MHz,SP Switch,0.0626 TFlop/s,0.09827 TFlop/s,False,False,False,AIX,False,False,False,False,False
+413,NT Supercluster,Self-made,256,0 GB,Pentium 3  550MHz,Fast Ethernet,0.06259 TFlop/s,0.1408 TFlop/s,"122,500",False,False,Linux,False,False,False,False,"20,500"
+414,HPC 4500 400 MHz Cluster,Sun,110,0 GB,Sparc  200MHz,,0.06227 TFlop/s,0.088 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+415,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+416,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+417,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+418,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+419,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+420,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+421,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+422,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+423,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+424,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+425,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+426,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+427,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+428,ORIGIN 2000 300 MHz,HPE,128,0 GB,R12000  300MHz,Hypercube,0.06225 TFlop/s,0.0768 TFlop/s,"60,032",False,False,Linux,False,False,False,False,"9,000"
+429,V2600/HyperPlex,HP,64,0 GB,PA-8600  549MHz,HyperPlex,0.062 TFlop/s,0.1408 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+430,SP Power3 375 MHz 16 way,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.062 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+431,SP PC604e 332 MHz,IBM,146,0 GB,PowerPC 604e  332MHz,SP Switch,0.0618 TFlop/s,0.09694 TFlop/s,False,False,False,AIX,False,False,False,False,False
+432,SX-4/32,NEC,32,0 GB,NEC  250MHz,Multi-stage crossbar,0.0617 TFlop/s,0.064 TFlop/s,"20,480",False,False,EWS-UX/V,False,False,False,False,"1,688"
+433,SP Power3 375 MHz,IBM,58,0 GB,POWER3  375MHz,SP Switch,0.0615 TFlop/s,0.087 TFlop/s,False,False,False,AIX,False,False,False,False,False
+434,Alphleet Cluster,HP,140,0 GB,EV6  500MHz,Myrinet,0.0613 TFlop/s,0.14 TFlop/s,"56,000",False,False,N/A,False,False,False,False,"22,000"
+435,SP PC604e 332 MHz,IBM,144,0 GB,PowerPC 604e  332MHz,SP Switch,0.0609 TFlop/s,0.09561 TFlop/s,False,False,False,AIX,False,False,False,False,False
+436,SP PC604e 332 MHz,IBM,144,0 GB,PowerPC 604e  332MHz,SP Switch,0.0609 TFlop/s,0.09561 TFlop/s,False,False,False,AIX,False,False,False,False,False
+437,SP PC604e 332 MHz,IBM,144,0 GB,PowerPC 604e  332MHz,SP Switch,0.0609 TFlop/s,0.09561 TFlop/s,False,False,False,AIX,False,False,False,False,False
+438,SP PC604e 332 MHz,IBM,144,0 GB,PowerPC 604e  332MHz,SP Switch,0.0609 TFlop/s,0.09561 TFlop/s,False,False,False,AIX,False,False,False,False,False
+439,SP PC604e 332 MHz,IBM,144,0 GB,PowerPC 604e  332MHz,SP Switch,0.0609 TFlop/s,0.09561 TFlop/s,False,False,False,AIX,False,False,False,False,False
+440,SP PC604e 332 MHz,IBM,144,0 GB,PowerPC 604e  332MHz,SP Switch,0.0609 TFlop/s,0.09561 TFlop/s,False,False,False,AIX,False,False,False,False,False
+441,SX-5/16Be,NEC,16,0 GB,NEC  250MHz,Multi-stage crossbar,0.0607 TFlop/s,0.064 TFlop/s,False,False,False,Super-UX,False,False,False,False,False
+442,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.0597 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+443,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.0597 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+444,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.0597 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+445,VPP500/42,Fujitsu,42,0 GB,Fujitsu  100MHz,Full distributed crossbar,0.0596 TFlop/s,0.0672 TFlop/s,False,False,False,UXP/V,False,False,False,False,False
+446,SX-5/8B,NEC,8,0 GB,NEC  250MHz,Multi-stage crossbar,0.0596 TFlop/s,0.064 TFlop/s,False,False,False,Super-UX,False,False,False,False,False
+447,SX-5/8A,NEC,8,0 GB,NEC  250MHz,Multi-stage crossbar,0.0596 TFlop/s,0.064 TFlop/s,False,False,False,Super-UX,False,False,False,False,False
+448,SX-5/8B,NEC,8,0 GB,NEC  250MHz,Multi-stage crossbar,0.0596 TFlop/s,0.064 TFlop/s,False,False,False,Super-UX,False,False,False,False,False
+449,SP Power3 375 MHz,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.0594 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+450,SP Power3 375 MHz,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.0594 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+451,SP Power3 375 MHz,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.0594 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+452,SP Power3 375 MHz,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.0594 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+453,SP Power3 375 MHz,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.0594 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+454,SP Power3 375 MHz,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.0594 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+455,SP Power3 375 MHz,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.0594 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+456,SP Power3 375 MHz,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.0594 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+457,SP Power3 375 MHz,IBM,56,0 GB,POWER3  375MHz,SP Switch,0.0594 TFlop/s,0.084 TFlop/s,False,False,False,AIX,False,False,False,False,False
+458,SP PC604e 332 MHz,IBM,140,0 GB,PowerPC 604e  332MHz,SP Switch,0.0593 TFlop/s,0.09296 TFlop/s,False,False,False,AIX,False,False,False,False,False
+459,SP PC604e 332 MHz,IBM,140,0 GB,PowerPC 604e  332MHz,SP Switch,0.0593 TFlop/s,0.09296 TFlop/s,False,False,False,AIX,False,False,False,False,False
+460,ORIGIN 2000 300 MHz,HPE,116,0 GB,R12000  300MHz,Hypercube,0.0591 TFlop/s,0.0696 TFlop/s,False,False,False,Linux,False,False,False,False,False
+461,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.05904 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+462,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.05904 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+463,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.05904 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+464,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.05904 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+465,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.05904 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+466,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.05904 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+467,HPC 10000 400 MHz Cluster,Sun,96,0 GB,UltraSPARC II  400MHz,,0.05904 TFlop/s,0.0768 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+468,SR2201/256,Hitachi,256,0 GB,HARP-1E  150MHz,Hyper crossbar,0.05868 TFlop/s,0.0768 TFlop/s,"77,760",False,False,HI-UX/MPP,False,False,False,False,"13,440"
+469,SR2201/256,Hitachi,256,0 GB,HARP-1E  150MHz,Hyper crossbar,0.05868 TFlop/s,0.0768 TFlop/s,"77,760",False,False,HI-UX/MPP,False,False,False,False,"13,440"
+470,SR2201/256,Hitachi,256,0 GB,HARP-1E  150MHz,Hyper crossbar,0.05868 TFlop/s,0.0768 TFlop/s,"77,760",False,False,HI-UX/MPP,False,False,False,False,"13,440"
+471,SR2201/256,Hitachi,256,0 GB,HARP-1E  150MHz,Hyper crossbar,0.05868 TFlop/s,0.0768 TFlop/s,"77,760",False,False,HI-UX/MPP,False,False,False,False,"13,440"
+472,ORIGIN 2000,HPE,192,0 GB,R10000  195MHz,Hypercube,0.0586 TFlop/s,0.07488 TFlop/s,False,False,False,IRIX,False,False,False,False,False
+473,SP PC604e 332 MHz,IBM,138,0 GB,PowerPC 604e  332MHz,SP Switch,0.0584 TFlop/s,0.09163 TFlop/s,False,False,False,AIX,False,False,False,False,False
+474,SP Power3 200 MHz,IBM,96,0 GB,POWER3  200MHz,SP Switch,0.0583 TFlop/s,0.0768 TFlop/s,False,False,False,AIX,False,False,False,False,False
+475,SP Power3 200 MHz,IBM,96,0 GB,POWER3  200MHz,SP Switch,0.0583 TFlop/s,0.0768 TFlop/s,False,False,False,AIX,False,False,False,False,False
+476,T3E,Cray/HPE,134,0 GB,EV5  300MHz,3-D Torus,0.0582 TFlop/s,0.0804 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+477,T3E,Cray/HPE,134,0 GB,EV5  300MHz,3-D Torus,0.0582 TFlop/s,0.0804 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+478,T3E,Cray/HPE,134,0 GB,EV5  300MHz,3-D Torus,0.0582 TFlop/s,0.0804 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+479,VPP700/26E,Fujitsu,26,0 GB,Fujitsu  150MHz,Full distributed crossbar,0.058 TFlop/s,0.0624 TFlop/s,"74,880",False,False,UXP/V,False,False,False,False,"5,200"
+480,SP PC604e 332 MHz,IBM,136,0 GB,PowerPC 604e  332MHz,SP Switch,0.0576 TFlop/s,0.0903 TFlop/s,False,False,False,AIX,False,False,False,False,False
+481,SP PC604e 332 MHz,IBM,136,0 GB,PowerPC 604e  332MHz,SP Switch,0.0576 TFlop/s,0.0903 TFlop/s,False,False,False,AIX,False,False,False,False,False
+482,SP PC604e 332 MHz,IBM,136,0 GB,PowerPC 604e  332MHz,SP Switch,0.0576 TFlop/s,0.0903 TFlop/s,False,False,False,AIX,False,False,False,False,False
+483,SP PC604e 332 MHz,IBM,136,0 GB,PowerPC 604e  332MHz,SP Switch,0.0576 TFlop/s,0.0903 TFlop/s,False,False,False,AIX,False,False,False,False,False
+484,SP PC604e 332 MHz,IBM,136,0 GB,PowerPC 604e  332MHz,SP Switch,0.0576 TFlop/s,0.0903 TFlop/s,False,False,False,AIX,False,False,False,False,False
+485,T3E,Cray/HPE,132,0 GB,EV5  300MHz,3-D Torus,0.0574 TFlop/s,0.0792 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+486,SP P2SC 160 MHz,IBM,128,0 GB,POWER2 SC  160MHz,SP Switch,0.05724 TFlop/s,0.08192 TFlop/s,"39,000",False,False,AIX,False,False,False,False,"9,180"
+487,VPP500/40,Fujitsu,40,0 GB,Fujitsu  100MHz,Full distributed crossbar,0.0569 TFlop/s,0.064 TFlop/s,False,False,False,UXP/V,False,False,False,False,False
+488,SP PC604e 332 MHz,IBM,134,0 GB,PowerPC 604e  332MHz,SP Switch,0.0567 TFlop/s,0.08897 TFlop/s,False,False,False,AIX,False,False,False,False,False
+489,SP PC604e 332 MHz,IBM,134,0 GB,PowerPC 604e  332MHz,SP Switch,0.0567 TFlop/s,0.08897 TFlop/s,False,False,False,AIX,False,False,False,False,False
+490,SP P2SC 160 MHz,IBM,126,0 GB,POWER2 SC  160MHz,SP Switch,0.05637 TFlop/s,0.08064 TFlop/s,False,False,False,AIX,False,False,False,False,False
+491,T3E1200,Cray/HPE,68,0 GB,EV56  598MHz,3-D Torus,0.0563 TFlop/s,0.0816 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+492,SP Power3 200 MHz,IBM,92,0 GB,POWER3  200MHz,SP Switch,0.056 TFlop/s,0.0736 TFlop/s,False,False,False,AIX,False,False,False,False,False
+493,SX-5S/16H4,NEC,16,0 GB,NEC  250MHz,Multi-stage crossbar,0.056 TFlop/s,0.064 TFlop/s,False,False,False,Super-UX,False,False,False,False,False
+494,SP PC604e 332 MHz,IBM,132,0 GB,PowerPC 604e  332MHz,SP Switch,0.0559 TFlop/s,0.08764 TFlop/s,False,False,False,AIX,False,False,False,False,False
+495,SP S80s 450 MHz,IBM,108,0 GB,RS64 III  450MHz,,0.0558 TFlop/s,0.0972 TFlop/s,False,False,False,AIX,False,False,False,False,False
+496,SP P2SC 160 MHz,IBM,124,0 GB,POWER2 SC  160MHz,SP Switch,0.0555 TFlop/s,0.0793 TFlop/s,False,False,False,AIX,False,False,False,False,False
+497,SP Power3 375 MHz,IBM,52,0 GB,POWER3  375MHz,SP Switch,0.0553 TFlop/s,0.078 TFlop/s,False,False,False,AIX,False,False,False,False,False
+498,SP Power3 375 MHz,IBM,52,0 GB,POWER3  375MHz,SP Switch,0.0553 TFlop/s,0.078 TFlop/s,False,False,False,AIX,False,False,False,False,False
+499,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False

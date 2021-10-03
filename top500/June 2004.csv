@@ -1,0 +1,501 @@
+,Name,Manufacturer:,Cores:,Memory:,Processor:,Interconnect:,Linpack Performance (Rmax),Theoretical Peak (Rpeak),Nmax,HPCG [TFlop/s],Power Measurement Level:,Operating System:,Compiler:,Math Library:,MPI:,Power:,Nhalf
+0,Earth-Simulator,NEC,"5,120",0 GB,NEC  1GHz,Multi-stage crossbar,35.86 TFlop/s,40.96 TFlop/s,"1,075,200",False,False,Super-UX,False,False,False,"3,200.00 kW","266,240"
+1,Thunder - Intel Itanium2 Tiger4  1.4GHz - Quadrics,California Digital Corporation,"4,096",0 GB,Itanium 2  1.4GHz,Quadrics,19.94 TFlop/s,22.938 TFlop/s,"975,000",False,False,Linux,False,False,False,False,"110,000"
+2,"ASCI Q - AlphaServer SC45, 1.25 GHz",HP,"8,192",0 GB,Alpha  1.25GHz,Quadrics,13.88 TFlop/s,20.48 TFlop/s,"633,000",False,False,Tru64 UNIX,False,False,False,False,"225,000"
+3,BlueGene/L DD1 Prototype (0.5GHz PowerPC 440 w/Custom),IBM/ LLNL,"8,192",0 GB,PowerPC 440 2C 500MHz,Proprietary,11.68 TFlop/s,16.384 TFlop/s,"331,775",False,False,Linux,False,False,False,False,False
+4,"Tungsten - PowerEdge 1750, P4 Xeon 3.06 GHz, Myrinet",Dell EMC,"2,500",0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,9.819 TFlop/s,15.3 TFlop/s,"630,000",False,False,Linux,False,False,False,False,False
+5,eServer pSeries 690 (1.9 GHz Power4+),IBM,"2,112",0 GB,POWER4+ 2C 1.9GHz,Federation,8.955 TFlop/s,16.051 TFlop/s,"350,000",False,False,AIX,False,False,False,False,False
+6,RIKEN Super Combined Cluster,Fujitsu,"2,048",0 GB,Pentium 4 Xeon  3.06GHz,Myrinet/Infiniband,8.728 TFlop/s,12.534 TFlop/s,"474,200",False,False,Linux,False,False,False,False,"120,000"
+7,BlueGene/L DD2 Prototype (0.7 GHz PowerPC 440),IBM/ LLNL,"4,096",0 GB,PowerPC 440 2C 700MHz,Proprietary,9.153 TFlop/s,11.469 TFlop/s,"319,487",False,False,Linux,False,False,False,False,False
+8,"Mpp2 - Cluster Platform 6000 rx2600 Itanium2 1.5 GHz, Quadrics",HPE,"1,936",0 GB,Itanium 2  1.5GHz,Quadrics,8.633 TFlop/s,11.616 TFlop/s,"835,000",False,False,Linux,False,False,False,False,"140,000"
+9,"Dawning 4000A, Opteron 2.2 GHz, Myrinet",Dawning,"2,560",0 GB,Opteron  2.2GHz,Myrinet,8.061 TFlop/s,11.264 TFlop/s,"728,400",False,False,Linux,False,False,False,False,"180,000"
+10,"Lightning - Opteron 2 GHz, Myrinet",LNXI,"2,816",0 GB,Opteron  2GHz,Myrinet,8.051 TFlop/s,11.264 TFlop/s,"761,160",False,False,Linux,False,False,False,False,"109,208"
+11,MCR Linux Cluster Xeon 2.4 GHz - Quadrics,Linux Networx/Quadrics,"2,304",0 GB,Pentium 4 Xeon  2.4GHz,Quadrics,7.634 TFlop/s,11.06 TFlop/s,"350,000",False,False,Linux,False,False,False,False,"75,000"
+12,"ASCI White, SP Power3 375 MHz",IBM,"8,192",0 GB,POWER3  375MHz,SP Switch,7.304 TFlop/s,12.288 TFlop/s,"640,000",False,False,AIX,False,False,False,False,False
+13,Seaborg - SP Power3 375 MHz 16 way,IBM,"6,656",0 GB,POWER3  375MHz,SP Switch,7.304 TFlop/s,9.984 TFlop/s,"640,000",False,False,AIX,False,False,False,False,False
+14,"TeraGrid, Itanium2 1.3/1.5 GHZ, Myrinet",IBM,"1,776",0 GB,Itanium 2  1.44GHz,Myrinet,7.215 TFlop/s,10.259 TFlop/s,"540,000",False,False,Linux,False,False,False,False,False
+15,xSeries Cluster Xeon 2.4 GHz - Quadrics,IBM/Quadrics,"1,920",0 GB,Pentium 4 Xeon  2.4GHz,Quadrics,6.586 TFlop/s,9.216 TFlop/s,"425,000",False,False,Linux,False,False,False,False,"90,000"
+16,"Lilac - xSeries x335 Cluster, Xeon 3.06 GHz, Quadrics",IBM,"1,540",0 GB,Pentium 4 Xeon  3.06GHz,Quadrics,6.232 TFlop/s,9.425 TFlop/s,False,False,False,Linux,False,False,False,False,False
+17,eServer pSeries 690 (1.7 GHz Power4+),IBM,"1,600",0 GB,POWER4+ 2C 1.7GHz,Federation,6.188 TFlop/s,10.88 TFlop/s,"355,000",False,False,AIX,False,False,False,False,False
+18,"AIST Super Cluster P-32 - AIST Super Cluster P-32, Opteron 2.0 GHz, Myrinet",IBM,"2,200",0 GB,Opteron  2GHz,Myrinet,6.155 TFlop/s,8.8 TFlop/s,False,False,False,Linux,False,False,False,False,False
+19,Cray X1,Cray/HPE,504,0 GB,Cray X1  800MHz,Crossbar,5.895 TFlop/s,6.451 TFlop/s,"494,592",False,False,UNICOS,False,False,False,False,"53,760"
+20,JUMP - eServer pSeries 690 (1.7 GHz Power4+),IBM,"1,312",0 GB,POWER4+ 2C 1.7GHz,Federation,5.568 TFlop/s,8.921 TFlop/s,"660,000",False,False,AIX,False,False,False,False,"60,000"
+21,PRIMEPOWER HPC2500 (1.3 GHz),Fujitsu,"2,304",0 GB,SPARC64 V  1.3GHz,Crossbar,5.406 TFlop/s,11.98 TFlop/s,"658,800",False,False,Solaris,False,False,False,False,"100,080"
+22,DataStar - eServer pSeries 655/690 (1.5/1.7 Ghz Power4+),IBM,"1,680",0 GB,POWER4+ 2C 1.5GHz,Federation,5.223 TFlop/s,10.31 TFlop/s,"540,000",False,False,AIX,False,False,False,False,False
+23,PRIMEPOWER HPC2500 (1.56 GHz),Fujitsu,"1,472",0 GB,SPARC64 V  1.56GHz,Crossbar,4.552 TFlop/s,9.185 TFlop/s,"749,340",False,False,Solaris,False,False,False,False,"90,390"
+24,"AlphaServer SC45, 1 GHz",HP,"3,016",0 GB,Alpha  1GHz,Quadrics,4.463 TFlop/s,6.032 TFlop/s,"280,000",False,False,Tru64 UNIX,False,False,False,False,"85,000"
+25,"DeepComp 6800, Itanium2 1.3 GHz, QsNet",Lenovo,"1,024",0 GB,Itanium 2  1.3GHz,Quadrics,4.193 TFlop/s,5.3248 TFlop/s,"491,488",False,False,Linux,False,False,False,False,False
+26,pSeries 690 Turbo 1.3 GHz,IBM,"1,600",0 GB,POWER4 2C 1.3GHz,Colony,4.184 TFlop/s,8.32 TFlop/s,"550,000",False,False,AIX,False,False,False,False,"93,000"
+27,"AlphaServer SC45, 1 GHz",HP,"2,560",0 GB,Alpha  1GHz,Quadrics,3.98 TFlop/s,5.12 TFlop/s,"360,000",False,False,Tru64 UNIX,False,False,False,False,"85,000"
+28,eServer pSeries 655 (1.5 GHz Power4+),IBM,"1,024",0 GB,POWER4+ 2C 1.5GHz,Federation,3.812 TFlop/s,6.144 TFlop/s,"428,800",False,False,AIX,False,False,False,False,"42,400"
+29,eServer pSeries 655 (1.5 GHz Power4+),IBM,"1,024",0 GB,POWER4+ 2C 1.5GHz,Federation,3.812 TFlop/s,6.144 TFlop/s,"428,800",False,False,AIX,False,False,False,False,"42,400"
+30,xSeries Xeon 3.06 GHz - Gig-E,IBM,"1,128",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.755 TFlop/s,6.90336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+31,xSeries Xeon 3.06 GHz - Gig-E,IBM,"1,128",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.755 TFlop/s,6.90336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+32,xSeries Xeon 3.06 GHz - Gig-E,IBM,"1,120",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.755 TFlop/s,6.8544 TFlop/s,False,False,False,Linux,False,False,False,False,False
+33,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,"1,064",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.755 TFlop/s,6.51168 TFlop/s,False,False,False,Linux,False,False,False,False,False
+34,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,"1,056",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.755 TFlop/s,6.46272 TFlop/s,False,False,False,Linux,False,False,False,False,False
+35,xSeries Cluster Xeon 3.06 GHz - Gig-E,IBM,"1,024",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.755 TFlop/s,6.26688 TFlop/s,False,False,False,Linux,False,False,False,False,False
+36,xSeries Cluster Xeon 3.06 GHz - Gig-E,IBM,"1,024",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.755 TFlop/s,6.26688 TFlop/s,False,False,False,Linux,False,False,False,False,False
+37,"glacier - BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,"1,008",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.755 TFlop/s,6.16896 TFlop/s,False,False,False,Linux,False,False,False,False,False
+38,xSeries Xeon 3.06 GHz - Gig-E,IBM,"1,000",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.755 TFlop/s,6.12 TFlop/s,"390,000",False,False,Linux,False,False,False,False,False
+39,pSeries 690 Turbo 1.3 GHz,IBM,"1,408",0 GB,POWER4 2C 1.3GHz,Colony,3.7172 TFlop/s,7.3216 TFlop/s,False,False,False,AIX,False,False,False,False,False
+40,"Aspen Systems, Dual Xeon 2.2 GHz - Myrinet2000",HPTi,"1,536",0 GB,Pentium 4 Xeon  2.2GHz,Myrinet,3.337 TFlop/s,6.758 TFlop/s,"285,000",False,False,Linux,False,False,False,False,"75,000"
+41,"Nankai Stars - xSeries Xeon 3.06 GHz, Myrinet",IBM,768,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,3.328 TFlop/s,4.7 TFlop/s,"299,500",False,False,Linux,False,False,False,False,"59,000"
+42,"TeraGrid Cluster, Itanium 2 1.3 GHz, Myrinet",IBM,768,0 GB,Itanium 2  1.3GHz,Myrinet,3.152 TFlop/s,3.993 TFlop/s,"350,000",False,False,Linux,False,False,False,False,False
+43,"HPC - Sun Fire V60, IBM xServer,2.0-3.0 GHz, Myrinet","IBM, Sun, Myricom","1,444",0 GB,Pentium 4 Xeon  2.33GHz,Myrinet,3.15 TFlop/s,4.851 TFlop/s,"280,000",False,False,Linux,False,False,False,False,"140,000"
+44,"Nankai Star - xSeries Xeon 2.4 GHz, Myrinet",IBM,"1,024",0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,3.067 TFlop/s,4.9152 TFlop/s,"230,000",False,False,Linux,False,False,False,False,False
+45,xSeries Cluster Xeon 3.06 GHz - Gig-E,IBM,800,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,3.004 TFlop/s,4.896 TFlop/s,False,False,False,Linux,False,False,False,False,False
+46,Cray X1,Cray/HPE,252,0 GB,Cray X1  800MHz,Crossbar,2.9329 TFlop/s,3.2256 TFlop/s,"338,688",False,False,UNICOS,False,False,False,False,"44,288"
+47,xSeries Xeon 3.06 GHz - Gig-E,IBM,780,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,2.9289 TFlop/s,4.7736 TFlop/s,False,False,False,Linux,False,False,False,False,False
+48,"ICC1 - Cluster Platform DL360G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,"1,024",0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,2.88 TFlop/s,5.7344 TFlop/s,False,False,False,Linux,False,False,False,False,False
+49,"ICC1 - Cluster Platform DL360G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,"1,024",0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,2.88 TFlop/s,5.7344 TFlop/s,False,False,False,Linux,False,False,False,False,False
+50,eServer pSeries 690 (1.9 GHz Power4+),IBM,672,0 GB,POWER4+ 2C 1.9GHz,Federation,3.03055 TFlop/s,5.1072 TFlop/s,False,False,False,AIX,False,False,False,False,False
+51,pSeries 690 Turbo 1.3GHz,IBM,960,0 GB,POWER4 2C 1.3GHz,Colony,2.56 TFlop/s,4.992 TFlop/s,False,False,False,AIX,False,False,False,False,False
+52,pSeries 690 Turbo 1.3GHz,IBM,960,0 GB,POWER4 2C 1.3GHz,Colony,2.56 TFlop/s,4.992 TFlop/s,False,False,False,AIX,False,False,False,False,False
+53,pSeries 690 Turbo 1.3GHz,IBM,960,0 GB,POWER4 2C 1.3GHz,Colony,2.56 TFlop/s,4.992 TFlop/s,False,False,False,AIX,False,False,False,False,False
+54,"Cluster Platform 6000 rx5670-4x256, Itanium2 1.3 GHz, GigE",HP,"1,024",0 GB,Itanium 2  1.3GHz,Gigabit Ethernet,2.556 TFlop/s,5.3248 TFlop/s,False,False,False,Linux,False,False,False,False,False
+55,eServer pSeries 655 (1.5 GHz Power4+),IBM,672,0 GB,POWER4+ 2C 1.5GHz,Federation,2.51027 TFlop/s,4.032 TFlop/s,False,False,False,AIX,False,False,False,False,False
+56,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,750,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,2.496 TFlop/s,4.8 TFlop/s,False,False,False,Linux,False,False,False,False,False
+57,"lonestar - PowerEdge 1750, Pentium4 Xeon 3.06 GHz, Myrinet",Dell-Cray,600,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,2.455 TFlop/s,3.672 TFlop/s,"252,000",False,False,Linux,False,False,False,False,False
+58,SGI Altix 1.5 GHz,HPE,512,0 GB,Itanium 2  1.5GHz,NUMAlink,2.439 TFlop/s,3.072 TFlop/s,"252,960",False,False,Linux,False,False,False,False,False
+59,xSeries Xeon 3.06 GHz - Gig-E,IBM,640,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,2.4032 TFlop/s,3.9168 TFlop/s,False,False,False,Linux,False,False,False,False,False
+60,ASCI Red,Intel,"9,632",0 GB,Pentium Pro  333MHz,Proprietary,2.379 TFlop/s,3.207 TFlop/s,"362,880",False,False,Paragon OS,False,False,False,False,"75,400"
+61,pSeries 690 Turbo 1.3GHz,IBM,864,0 GB,POWER4 2C 1.3GHz,Colony,2.31 TFlop/s,4.4928 TFlop/s,"275,000",False,False,AIX,False,False,False,False,"62,000"
+62,"xSeries Xeon 3.06 GHz, Myrinet",IBM,512,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,2.27267 TFlop/s,3.13344 TFlop/s,False,False,False,Linux,False,False,False,False,False
+63,"xSeries Xeon 3.06 GHz, Myrinet",IBM,512,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,2.27267 TFlop/s,3.13344 TFlop/s,False,False,False,Linux,False,False,False,False,False
+64,SuperMike - P4 Xeon 1.8 GHz - Myrinet,Atipa,"1,024",0 GB,Pentium 4 Xeon  1.8GHz,Myrinet,2.207 TFlop/s,3.6864 TFlop/s,"280,000",False,False,Linux,False,False,False,False,"56,000"
+65,pSeries 690 Turbo 1.3 GHz,IBM,822,0 GB,POWER4 2C 1.3GHz,Colony,2.19844 TFlop/s,4.2744 TFlop/s,False,False,False,AIX,False,False,False,False,False
+66,"AlphaServer SC45, 1 GHz",HP,"1,392",0 GB,Alpha  1GHz,Quadrics,2.164 TFlop/s,2.784 TFlop/s,"320,000",False,False,Tru64 UNIX,False,False,False,False,"40,000"
+67,"SX-6/248M31 (typeE, 1.778ns)",NEC,248,0 GB,NEC  562MHz,Multi-stage crossbar,2.155 TFlop/s,2.232 TFlop/s,"220,224",False,False,Super-UX,False,False,False,False,"21,816"
+68,"ASCI Blue-Pacific SST, IBM SP 604e",IBM,"5,808",0 GB,PowerPC 604e  332MHz,SP Switch,2.144 TFlop/s,3.8565 TFlop/s,"431,344",False,False,AIX,False,False,False,False,False
+69,pSeries 690 Turbo 1.3GHz,IBM,800,0 GB,POWER4 2C 1.3GHz,Colony,2.14 TFlop/s,4.16 TFlop/s,False,False,False,AIX,False,False,False,False,False
+70,xSeries Cluster Xeon 3.06 GHz - Gig-E,IBM,568,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,2.13284 TFlop/s,3.47616 TFlop/s,False,False,False,Linux,False,False,False,False,False
+71,SP Power3 375 MHz 16 way,IBM,"1,920",0 GB,POWER3  375MHz,SP Switch,2.106 TFlop/s,2.88 TFlop/s,False,False,False,AIX,False,False,False,False,False
+72,SP Power3 375 MHz 16 way,IBM,"1,920",0 GB,POWER3  375MHz,SP Switch,2.106 TFlop/s,2.88 TFlop/s,False,False,False,AIX,False,False,False,False,False
+73,"ALiCEnext, Opteron 1.8 GHz, GigE, Parastation",Angstrom,"1,024",0 GB,Opteron  1.8GHz,Gigabit Ethernet,2.083 TFlop/s,3.6864 TFlop/s,False,False,False,Linux,False,False,False,False,False
+74,xSeries Xeon 3.06 GHz - Gig-E,IBM,550,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,2.06525 TFlop/s,3.366 TFlop/s,False,False,False,Linux,False,False,False,False,False
+75,"Cluster Platform 3000 DL380G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,702,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,2.044 TFlop/s,3.9312 TFlop/s,False,False,False,Linux,False,False,False,False,False
+76,"BladeCenter Cluster Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,176",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,6.5856 TFlop/s,False,False,False,Linux,False,False,False,False,False
+77,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,140",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,6.384 TFlop/s,False,False,False,Linux,False,False,False,False,False
+78,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,140",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,6.384 TFlop/s,False,False,False,Linux,False,False,False,False,False
+79,"BladeCenter Cluster Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,080",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,6.048 TFlop/s,False,False,False,Linux,False,False,False,False,False
+80,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,030",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,5.768 TFlop/s,False,False,False,Linux,False,False,False,False,False
+81,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,028",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,5.7568 TFlop/s,False,False,False,Linux,False,False,False,False,False
+82,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,028",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,5.7568 TFlop/s,False,False,False,Linux,False,False,False,False,False
+83,"BladeCenter Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,008",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,5.6448 TFlop/s,False,False,False,Linux,False,False,False,False,False
+84,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,000",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,5.6 TFlop/s,False,False,False,Linux,False,False,False,False,False
+85,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,"1,000",0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,5.6 TFlop/s,False,False,False,Linux,False,False,False,False,False
+86,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,880,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,4.928 TFlop/s,False,False,False,Linux,False,False,False,False,False
+87,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,712,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,3.9872 TFlop/s,False,False,False,Linux,False,False,False,False,False
+88,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,706,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,3.9536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+89,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,706,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,3.9536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+90,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,706,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,3.9536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+91,"BladeCenter Xeon 2.8 GHz, Gig-Ethernet",IBM,650,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.026 TFlop/s,3.64 TFlop/s,False,False,False,Linux,False,False,False,False,False
+92,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,608,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.01948 TFlop/s,3.4048 TFlop/s,False,False,False,Linux,False,False,False,False,False
+93,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,608,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,2.01948 TFlop/s,3.4048 TFlop/s,False,False,False,Linux,False,False,False,False,False
+94,Joplin - PowerEdge 2650 Cluster P4 Xeon 2.4 GHz - Myrinet,Dell EMC,600,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,2.004 TFlop/s,2.88 TFlop/s,"253,400",False,False,Linux,False,False,False,False,"42,200"
+95,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,602,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.99991 TFlop/s,3.3712 TFlop/s,False,False,False,Linux,False,False,False,False,False
+96,"AIST Super Cluster F-32, Xeon 3.06 GHz, GigE",LNXI,512,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.997 TFlop/s,3.1334 TFlop/s,"331,968",False,False,Linux,False,False,False,False,False
+97,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,600,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.99338 TFlop/s,3.36 TFlop/s,False,False,False,Linux,False,False,False,False,False
+98,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,580,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.92815 TFlop/s,3.248 TFlop/s,False,False,False,Linux,False,False,False,False,False
+99,"trindade - BladeCenter HS20 Cluster, Xeon 3.2 GHz, GigEthernet",IBM,512,0 GB,Pentium 4 Xeon  3.2GHz,Gigabit Ethernet,1.92256 TFlop/s,3.2768 TFlop/s,False,False,False,Linux,False,False,False,83.00 kW,False
+100,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,512,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.92256 TFlop/s,3.13344 TFlop/s,False,False,False,Linux,False,False,False,False,False
+101,eServer pSeries 655 (1.5 GHz Power4+),IBM,512,0 GB,POWER4+ 2C 1.5GHz,Federation,1.91857 TFlop/s,3.072 TFlop/s,False,False,False,AIX,False,False,False,False,False
+102,pSeries 690 Turbo 1.3GHz,IBM,704,0 GB,POWER4 2C 1.3GHz,Colony,1.849 TFlop/s,3.6608 TFlop/s,"240,000",False,False,AIX,False,False,False,False,"32,500"
+103,pSeries 690 Turbo 1.3GHz,IBM,704,0 GB,POWER4 2C 1.3GHz,Colony,1.849 TFlop/s,3.6608 TFlop/s,"240,000",False,False,AIX,False,False,False,False,"32,500"
+104,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,546,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.81726 TFlop/s,3.0576 TFlop/s,False,False,False,Linux,False,False,False,False,False
+105,"BladeCenter Xeon 2.8 GHz, Gig-Ethernet",IBM,546,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.81726 TFlop/s,3.0576 TFlop/s,False,False,False,Linux,False,False,False,False,False
+106,SGI Altix 1.3 GHz,HPE,512,0 GB,Itanium 2  1.3GHz,NUMAlink,2.338 TFlop/s,2.6624 TFlop/s,False,False,False,Linux,False,False,False,False,False
+107,SGI Altix 1.3 GHz,HPE,416,0 GB,Itanium 2  1.3GHz,NUMAlink,1.793 TFlop/s,2.163 TFlop/s,"298,799",False,False,Linux,False,False,False,False,False
+108,eServer Opteron 2.2 GHz. Myrinet,IBM,594,0 GB,Opteron  2.2GHz,Myrinet,1.785 TFlop/s,2.6136 TFlop/s,False,False,False,Linux,False,False,False,False,False
+109,eServer Opteron 2.2 GHz. Myrinet,IBM,594,0 GB,Opteron  2.2GHz,Myrinet,1.785 TFlop/s,2.6136 TFlop/s,False,False,False,Linux,False,False,False,False,False
+110,eServer Opteron 2.2 GHz. Myrinet,IBM,592,0 GB,Opteron  2.2GHz,Myrinet,1.779 TFlop/s,2.6048 TFlop/s,False,False,False,Linux,False,False,False,False,False
+111,eServer Opteron 2.2 GHz. Myrinet,IBM,592,0 GB,Opteron  2.2GHz,Myrinet,1.779 TFlop/s,2.6048 TFlop/s,False,False,False,Linux,False,False,False,False,False
+112,xSeries Xeon 2.8 GHz - Myrinet,IBM,512,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,1.762 TFlop/s,2.867 TFlop/s,"240,000",False,False,Linux,False,False,False,False,"37,000"
+113,xSeries Xeon 2.8 GHz - Myrinet,IBM,512,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,1.762 TFlop/s,2.867 TFlop/s,"240,000",False,False,Linux,False,False,False,False,"37,000"
+114,pSeries 690 Turbo 1.7 GHz,IBM,544,0 GB,POWER4 2C 1.7GHz,Colony,1.76 TFlop/s,3.6992 TFlop/s,"400,000",False,False,AIX,False,False,False,False,False
+115,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,"1,834",0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.755 TFlop/s,8.8032 TFlop/s,False,False,False,Linux,False,False,False,False,False
+116,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,"1,100",0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.755 TFlop/s,5.28 TFlop/s,False,False,False,Linux,False,False,False,False,False
+117,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,"1,048",0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.755 TFlop/s,5.0304 TFlop/s,False,False,False,Linux,False,False,False,False,False
+118,"BladeCenter Cluster Xeon 2.4 GHz, Gig-Ethernet",IBM,"1,024",0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.755 TFlop/s,4.9152 TFlop/s,"335,000",False,False,Linux,False,False,False,False,"41,600"
+119,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,"1,024",0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.755 TFlop/s,4.9152 TFlop/s,"335,000",False,False,Linux,False,False,False,False,"41,600"
+120,"BladeCenter Cluster Xeon 2.8 GHz, Gig-Ethernet",IBM,520,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.73246 TFlop/s,2.912 TFlop/s,False,False,False,Linux,False,False,False,False,False
+121,SR8000/MPP,Hitachi,"1,152",0 GB,Hitachi SR8000  450MHz,Multi-dimensional crossbar,1.7091 TFlop/s,2.074 TFlop/s,"141,000",False,False,HI-UX/MPP,False,False,False,False,"16,000"
+122,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,510,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.69985 TFlop/s,2.856 TFlop/s,False,False,False,Linux,False,False,False,False,False
+123,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,968,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.68549 TFlop/s,4.6464 TFlop/s,False,False,False,Linux,False,False,False,False,False
+124,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,500,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.66723 TFlop/s,2.8 TFlop/s,False,False,False,Linux,False,False,False,False,False
+125,SR8000-F1/168,Hitachi,168,0 GB,Hitachi SR8000  375MHz,Multi-dimensional crossbar,1.653 TFlop/s,2.016 TFlop/s,"160,000",False,False,HI-UX/MPP,False,False,False,False,"19,560"
+126,xSeries Xeon 3.06 GHz - Gig-E,IBM,440,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.6522 TFlop/s,2.6928 TFlop/s,False,False,False,Linux,False,False,False,False,False
+127,xSeries Xeon 2.8 GHz - Myrinet,IBM,478,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,1.64971 TFlop/s,2.6768 TFlop/s,False,False,False,Linux,False,False,False,False,False
+128,xSeries Cluster Xeon 2.8 GHz - Gig-Ethernet,IBM,494,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.64766 TFlop/s,2.7664 TFlop/s,False,False,False,Linux,False,False,False,False,False
+129,"eServer pSeries 655 (1.7 GHz Power4+, GigE)",IBM,"1,152",0 GB,POWER4+ 2C 1.7GHz,Gigabit Ethernet,1.636 TFlop/s,7.8336 TFlop/s,False,False,False,AIX,False,False,False,False,False
+130,"eServer pSeries 655 (1.7 GHz Power4+, GigE)",IBM,"1,152",0 GB,POWER4+ 2C 1.7GHz,Gigabit Ethernet,1.636 TFlop/s,7.8336 TFlop/s,False,False,False,AIX,False,False,False,False,False
+131,"AIST Super Cluster M-64 - AIST Super Cluster M-64,  Itanium2 1.3 GHz, Myrinet",IBM,512,0 GB,Itanium 2  1.3GHz,Myrinet,2.082 TFlop/s,2.6624 TFlop/s,"490,160",False,False,Linux,False,False,False,False,False
+132,eServer pSeries 690 (1.7 GHz Power4+),IBM,384,0 GB,POWER4+ 2C 1.7GHz,Federation,1.63 TFlop/s,2.6112 TFlop/s,False,False,False,AIX,False,False,False,False,False
+133,xSeries Xeon 3.06 GHz - Gig-E,IBM,430,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.61465 TFlop/s,2.6316 TFlop/s,False,False,False,Linux,False,False,False,False,False
+134,xSeries Xeon 3.06 GHz - Gig-E,IBM,430,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.61465 TFlop/s,2.6316 TFlop/s,False,False,False,Linux,False,False,False,False,False
+135,ASCI Blue Mountain,HPE,"6,144",0 GB,R10000  250MHz,HIPPI,1.608 TFlop/s,3.072 TFlop/s,"374,400",False,False,IRIX,False,False,False,False,"138,000"
+136,"Opteron 2.2 GHz, GigE",Verari,992,0 GB,Opteron  2.2GHz,Gigabit Ethernet,1.58 TFlop/s,4.3648 TFlop/s,"475,000",False,False,Linux,False,False,False,False,"300,000"
+137,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,880,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.57625 TFlop/s,4.224 TFlop/s,False,False,False,Linux,False,False,False,False,False
+138,xSeries Xeon 2.8 GHz - Gig-Ethernet,IBM,472,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.57531 TFlop/s,2.6432 TFlop/s,False,False,False,Linux,False,False,False,False,False
+139,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,412,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.54706 TFlop/s,2.52144 TFlop/s,False,False,False,Linux,False,False,False,False,False
+140,"eServer Opteron 2.0 GHz, Myrinet",IBM,512,0 GB,Opteron  2GHz,Myrinet,1.53875 TFlop/s,2.048 TFlop/s,False,False,False,Linux,False,False,False,False,False
+141,xSeries Xeon 3.06 GHz - Gig-E,IBM,406,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.52453 TFlop/s,2.48472 TFlop/s,False,False,False,Linux,False,False,False,False,False
+142,xSeries Xeon 3.06 GHz - Gig-E,IBM,406,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.52453 TFlop/s,2.48472 TFlop/s,False,False,False,Linux,False,False,False,False,False
+143,xSeries Xeon 3.06 GHz - Gig-E,IBM,406,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.52453 TFlop/s,2.48472 TFlop/s,False,False,False,Linux,False,False,False,False,False
+144,xSeries Xeon 3.06 GHz - Gig-E,IBM,406,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.52453 TFlop/s,2.48472 TFlop/s,False,False,False,Linux,False,False,False,False,False
+145,Vplant Cluster P4 XEON 2.4/2.0 GHz - Myrinet,Dell EMC,660,0 GB,Pentium 4 Xeon  2.24GHz,Myrinet,1.504 TFlop/s,2.963 TFlop/s,"160,000",False,False,Linux,False,False,False,False,False
+146,PowerEdge 2650 Cluster P4 Xeon 2.4 GHz/MSWindows - GigE,Dell EMC,640,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.503 TFlop/s,3.073 TFlop/s,"230,400",False,False,Windows 2000,False,False,False,False,False
+147,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,400,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.502 TFlop/s,2.448 TFlop/s,False,False,False,Linux,False,False,False,False,False
+148,SX-6/192M24,NEC,192,0 GB,NEC  1GHz,Multi-stage crossbar,1.484 TFlop/s,1.536 TFlop/s,"200,064",False,False,Super-UX,False,False,False,False,"15,744"
+149,eServer pSeries 655 - 4way (1.7 GHz Power4+),IBM,384,0 GB,POWER4+ 2C 1.7GHz,Federation,1.477 TFlop/s,2.6112 TFlop/s,"174,000",False,False,AIX,False,False,False,False,"40,000"
+150,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,800,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.47694 TFlop/s,3.84 TFlop/s,False,False,False,Linux,False,False,False,False,False
+151,PowerRACK-HX dual Xeon 2.4 GHz - SMC GigE,Self-made,528,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.455 TFlop/s,2.5344 TFlop/s,"170,000",False,False,Linux,False,False,False,False,"80,000"
+152,Cray X1,Cray/HPE,124,0 GB,Cray X1  800MHz,Crossbar,1.44842 TFlop/s,1.5872 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+153,Cray X1,Cray/HPE,124,0 GB,Cray X1  800MHz,Crossbar,1.44842 TFlop/s,1.5872 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+154,Cray X1,Cray/HPE,124,0 GB,Cray X1  800MHz,Crossbar,1.44842 TFlop/s,1.5872 TFlop/s,False,False,False,UNICOS,False,False,False,False,False
+155,pSeries 690 Turbo 1.7 GHz GigEth,IBM,384,0 GB,POWER4 2C 1.7GHz,Gigabit Ethernet,1.424 TFlop/s,2.6112 TFlop/s,"325,000",False,False,AIX,False,False,False,False,False
+156,"Cluster Platform 6000 rx4640-4x136 Itanium2 1.3 GHz, GigE",HP,544,0 GB,Itanium 2  1.3GHz,Gigabit Ethernet,1.418 TFlop/s,2.8288 TFlop/s,False,False,False,Linux,False,False,False,False,False
+157,SP Power3 375 MHz,IBM,"1,336",0 GB,POWER3  375MHz,SP Switch,1.417 TFlop/s,2.004 TFlop/s,"374,000",False,False,AIX,False,False,False,False,False
+158,"Cluster Platform 3000 DL360G3 Xeon 3.06 GHz, Infiniband",HPE,348,0 GB,Pentium 4 Xeon  3.06GHz,Infiniband,1.401 TFlop/s,2.1298 TFlop/s,False,False,False,Linux,False,False,False,False,False
+159,"Maverick - xSeries x335 Cluster, Xeon 3.06 GHz, Infiniband",IBM,384,0 GB,Pentium 4 Xeon  3.06GHz,Infiniband,1.389 TFlop/s,2.35 TFlop/s,"120,000",False,False,Linux,False,False,False,False,False
+160,pSeries 690 Turbo 1.3GHz,IBM,512,0 GB,POWER4 2C 1.3GHz,Colony,1.456 TFlop/s,2.6624 TFlop/s,"200,000",False,False,AIX,False,False,False,False,False
+161,pSeries 690 Turbo 1.3GHz,IBM,512,0 GB,POWER4 2C 1.3GHz,Colony,1.456 TFlop/s,2.6624 TFlop/s,"200,000",False,False,AIX,False,False,False,False,False
+162,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,400,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,1.382 TFlop/s,2.56 TFlop/s,False,False,False,Linux,False,False,False,False,False
+163,SX-7/160M5,NEC,160,0 GB,NEC  552MHz,Multi-stage crossbar,1.378 TFlop/s,1.4128 TFlop/s,"200,000",False,False,Super-UX,False,False,False,False,"15,200"
+164,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,364,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.36682 TFlop/s,2.22768 TFlop/s,False,False,False,Linux,False,False,False,False,False
+165,"BladeCenter Xeon 2.8 GHz, Gig-Ethernet",IBM,400,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.33513 TFlop/s,2.24 TFlop/s,False,False,False,Linux,False,False,False,False,False
+166,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,400,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.33513 TFlop/s,2.24 TFlop/s,False,False,False,Linux,False,False,False,False,False
+167,"HP Opteron 2.2 GHz, Myrinet",HPE,384,0 GB,Opteron  2.2GHz,Myrinet,1.329 TFlop/s,1.6896 TFlop/s,"422,400",False,False,Linux,False,False,False,False,"31,000"
+168,xSeries Xeon 3.06 GHz - Gig-E,IBM,352,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.32176 TFlop/s,2.15424 TFlop/s,False,False,False,Linux,False,False,False,False,False
+169,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,666,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.31061 TFlop/s,3.1968 TFlop/s,False,False,False,Linux,False,False,False,False,False
+170,"eServer pSeries 690 (1.7 GHz Power4+, GigE)",IBM,352,0 GB,POWER4+ 2C 1.7GHz,Gigabit Ethernet,1.30533 TFlop/s,2.3936 TFlop/s,False,False,False,AIX,False,False,False,False,False
+171,DeepComp 1800 - P4 Xeon 2 GHz - Myrinet,Lenovo,512,0 GB,Pentium 4 Xeon  2GHz,Myrinet,1.297 TFlop/s,2.048 TFlop/s,"172,000",False,False,Linux,False,False,False,False,False
+172,xSeries Xeon 2.8 GHz - Gig-Ethernet,IBM,384,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.28176 TFlop/s,2.1504 TFlop/s,False,False,False,Linux,False,False,False,False,False
+173,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,336,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.26168 TFlop/s,2.05632 TFlop/s,False,False,False,Linux,False,False,False,False,False
+174,SGI Altix 1.5 GHz,HPE,256,0 GB,Itanium 2  1.5GHz,NUMAlink,1.40902 TFlop/s,1.536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+175,SGI Altix 1.5 GHz,HPE,256,0 GB,Itanium 2  1.5GHz,NUMAlink,1.40902 TFlop/s,1.536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+176,SGI Altix 1.5 GHz,HPE,256,0 GB,Itanium 2  1.5GHz,NUMAlink,1.40902 TFlop/s,1.536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+177,SGI Altix 1.5 GHz,HPE,256,0 GB,Itanium 2  1.5GHz,NUMAlink,1.40902 TFlop/s,1.536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+178,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,622,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.25599 TFlop/s,2.9856 TFlop/s,False,False,False,Linux,False,False,False,False,False
+179,"xSeries Xeon 3.06 GHz, Myrinet",IBM,260,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,1.23384 TFlop/s,1.5912 TFlop/s,False,False,False,Linux,False,False,False,False,False
+180,eServer pSeries 690 (1.7 GHz Power4+),IBM,288,0 GB,POWER4+ 2C 1.7GHz,Federation,1.222 TFlop/s,1.9584 TFlop/s,False,False,False,AIX,False,False,False,False,False
+181,"xSeries Xeon 3.06 GHz, Myrinet",IBM,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,1.21735 TFlop/s,1.56672 TFlop/s,False,False,False,Linux,False,False,False,False,False
+182,"PowerEdge 650, 3.06 GHz, Gig Ethernet",Dell EMC,940,0 GB,Pentium 4  3.06GHz,Gigabit Ethernet,1.212 TFlop/s,5.7528 TFlop/s,"210,000",False,False,Linux,False,False,False,False,False
+183,xSeries Xeon 3.06 GHz - Gig-E,IBM,322,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.20911 TFlop/s,1.97064 TFlop/s,False,False,False,Linux,False,False,False,False,False
+184,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,574,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.19641 TFlop/s,2.7552 TFlop/s,False,False,False,Linux,False,False,False,False,False
+185,SP Power3 375 MHz 16 way,IBM,"1,088",0 GB,POWER3  375MHz,SP Switch,1.193 TFlop/s,1.632 TFlop/s,False,False,False,AIX,False,False,False,False,False
+186,SX-5/128M8 3.2ns,NEC,128,0 GB,NEC  312MHz,Multi-stage crossbar,1.192 TFlop/s,1.28 TFlop/s,"129,536",False,False,Super-UX,False,False,False,False,"10,240"
+187,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,562,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.18151 TFlop/s,2.6976 TFlop/s,False,False,False,Linux,False,False,False,False,False
+188,pSeries 690 1.1GHz,IBM,512,0 GB,POWER4 2C 1.1GHz,Colony,1.17 TFlop/s,2.253 TFlop/s,False,False,False,AIX,False,False,False,False,False
+189,pSeries 690 1.1GHz,IBM,512,0 GB,POWER4 2C 1.1GHz,Colony,1.17 TFlop/s,2.253 TFlop/s,False,False,False,AIX,False,False,False,False,False
+190,"Opteron 1.8 GHz, Gig Ethernet",Visual Technology,512,0 GB,Opteron  1.8GHz,Gigabit Ethernet,1.169 TFlop/s,1.8432 TFlop/s,"220,000",False,False,Linux,False,False,False,False,"59,000"
+191,T3E1200,Cray/HPE,"1,900",0 GB,EV56  598MHz,3-D Torus,1.166 TFlop/s,2.28 TFlop/s,"230,016",False,False,UNICOS,False,False,False,False,False
+192,T3E1200/900,Cray/HPE,"1,792",0 GB,Alpha  558MHz,3-D Torus,1.166 TFlop/s,1.999 TFlop/s,"230,016",False,False,UNICOS,False,False,False,False,False
+193,SGI Altix 1.3 GHz,HPE,256,0 GB,Itanium 2  1.3GHz,NUMAlink,1.142 TFlop/s,1.3312 TFlop/s,"334,080",False,False,Linux,False,False,False,False,"46,000"
+194,SGI Altix 1.3 GHz,HPE,256,0 GB,Itanium 2  1.3GHz,NUMAlink,1.142 TFlop/s,1.3312 TFlop/s,"334,080",False,False,Linux,False,False,False,False,"46,000"
+195,SGI Altix 1.3 GHz,HPE,256,0 GB,Itanium 2  1.3GHz,NUMAlink,1.142 TFlop/s,1.3312 TFlop/s,"334,080",False,False,Linux,False,False,False,False,"46,000"
+196,"SX-6/128M16 (typeE, 1.778ns)",NEC,128,0 GB,NEC  562MHz,Multi-stage crossbar,1.141 TFlop/s,1.152 TFlop/s,"327,680",False,False,Super-UX,False,False,False,False,"8,960"
+197,Cluster Platform 6000 rx2600 Itanium2 1.3 GHz Cluster,HPE,304,0 GB,Itanium 2  1.3GHz,Myrinet,1.253 TFlop/s,1.58 TFlop/s,False,False,False,Linux,False,False,False,False,False
+198,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,340,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.13498 TFlop/s,1.904 TFlop/s,False,False,False,Linux,False,False,False,False,False
+199,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,300,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,1.132 TFlop/s,1.92 TFlop/s,False,False,False,Linux,False,False,False,False,False
+200,Pentium Xeon Cluster 2.2 GHz - SCI 3D,Self-made,400,0 GB,Pentium 4 Xeon  2.2GHz,SCI,1.132 TFlop/s,1.76 TFlop/s,"212,000",False,False,Linux,False,False,False,False,"32,800"
+201,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,520,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.12938 TFlop/s,2.496 TFlop/s,False,False,False,Linux,False,False,False,False,False
+202,xSeries Xeon 3.06 GHz - Gig-E,IBM,300,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.1265 TFlop/s,1.836 TFlop/s,False,False,False,Linux,False,False,False,False,False
+203,"BladeCenter Xeon 2.8 GHz, Gig-Ethernet",IBM,336,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.12164 TFlop/s,1.8816 TFlop/s,False,False,False,Linux,False,False,False,False,False
+204,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,512,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.11944 TFlop/s,2.4576 TFlop/s,False,False,False,Linux,False,False,False,False,False
+205,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,512,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.11944 TFlop/s,2.4576 TFlop/s,False,False,False,Linux,False,False,False,False,False
+206, eServer pSeries 655 (1.7 GHz Power4+),IBM,256,0 GB,POWER4+ 2C 1.7GHz,Federation,1.107 TFlop/s,1.7408 TFlop/s,"224,000",False,False,AIX,False,False,False,False,"14,000"
+207,"Pentium4 Xeon 2.4 GHz, Myrinet",Self-made,528,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,1.104 TFlop/s,2.5344 TFlop/s,"120,000",False,False,Linux,False,False,False,False,"35,000"
+208,"PowerEdge 1750, Pentium4 Xeon 3.06 GHz, GigE",Dell EMC,304,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.095 TFlop/s,1.86048 TFlop/s,"179,000",False,False,Linux,False,False,False,False,"40,000"
+209,"BladeCenter Cluster Xeon 2.4 GHz, Gig-Ethernet",IBM,488,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.08965 TFlop/s,2.3424 TFlop/s,False,False,False,Linux,False,False,False,False,False
+210,"Pentium4 Xeon 3.06 GHz, Myrinet",Exadron,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,1.084 TFlop/s,1.56672 TFlop/s,"247,000",False,False,Linux,False,False,False,False,"38,000"
+211,pSeries 690 Turbo 1.3GHz,IBM,400,0 GB,POWER4 2C 1.3GHz,Colony,1.09025 TFlop/s,2.08 TFlop/s,False,False,False,AIX,False,False,False,False,False
+212,"Catalyst - P4 Xeon 3.06 GHz, Infiniband",LNXI,256,0 GB,Pentium 4 Xeon  3.06GHz,Infiniband,1.076 TFlop/s,1.56672 TFlop/s,"145,000",False,False,Linux,False,False,False,False,"27,350"
+213,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,320,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.06826 TFlop/s,1.792 TFlop/s,False,False,False,Linux,False,False,False,False,False
+214,"PowerEdge 1750, P4 Xeon 3.06 GHz, GigE",Dell EMC,"1,024",0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,1.095 TFlop/s,6.26688 TFlop/s,False,False,False,Linux,False,False,False,False,False
+215,"eServer pSeries 690 (1.7 GHz Power4+, GigE)",IBM,288,0 GB,POWER4+ 2C 1.7GHz,Gigabit Ethernet,1.068 TFlop/s,1.9584 TFlop/s,False,False,False,AIX,False,False,False,False,False
+216,"Powell - Pentium4 Xeon 3.06 GHz, Myrinet",LNXI,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,1.06 TFlop/s,1.56672 TFlop/s,"159,432",False,False,Linux,False,False,False,False,"29,858"
+217,AVIDD-B+AVIDD-I - xSeries Cluster Xeon 2.4 GHz - Myrinet&amp;Force10,IBM,384,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,1.058 TFlop/s,1.843 TFlop/s,"220,000",False,False,Linux,False,False,False,False,False
+218,"Cluster Platform DL360G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,320,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,1.057 TFlop/s,1.792 TFlop/s,False,False,False,Linux,False,False,False,False,False
+219,"Orange - Opteron 1.6 GHz, Infiniband",LNXI,512,0 GB,Opteron  1.6GHz,Infiniband,1.053 TFlop/s,1.638 TFlop/s,"114,000",False,False,Linux,False,False,False,False,"22,202"
+220,"Integrity Superdome, 1.5 GHz, HFabric",HP,220,0 GB,Itanium 2  1.5GHz,HyperPlex,1.049 TFlop/s,1.32 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+221,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,448,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.04 TFlop/s,2.1504 TFlop/s,"195,000",False,False,Linux,False,False,False,False,False
+222,"BladeCenter Cluster Xeon 2.4 GHz, Gig-Ethernet",IBM,448,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.04 TFlop/s,2.1504 TFlop/s,"195,000",False,False,Linux,False,False,False,False,False
+223,pSeries 690 Turbo 1.3GHz,IBM,384,0 GB,POWER4 2C 1.3GHz,Colony,1.038 TFlop/s,1.9968 TFlop/s,"245,000",False,False,AIX,False,False,False,False,False
+224,pSeries 690 Turbo 1.3GHz,IBM,384,0 GB,POWER4 2C 1.3GHz,Colony,1.038 TFlop/s,1.9968 TFlop/s,"245,000",False,False,AIX,False,False,False,False,False
+225,pSeries 690 Turbo 1.3GHz,IBM,384,0 GB,POWER4 2C 1.3GHz,Colony,1.038 TFlop/s,1.9968 TFlop/s,"245,000",False,False,AIX,False,False,False,False,False
+226,Emperor - Pentium4 Xeon 2.8 GHz Cluster - Quadrics,Promicro/Quadrics,256,0 GB,Pentium 4 Xeon  2.8GHz,Quadrics,1.036 TFlop/s,1.4336 TFlop/s,"170,000",False,False,Linux,False,False,False,False,"30,600"
+227,Adelie - Pentium4 Xeon 2.8 GHz Cluster - Quadrics,Promicro/Quadrics,256,0 GB,Pentium 4 Xeon  2.8GHz,Quadrics,1.036 TFlop/s,1.4336 TFlop/s,"170,000",False,False,Linux,False,False,False,False,"30,600"
+228,"NovaScale5160, Itanium2 1.3 GHz, Quadrics",Atos,256,0 GB,Itanium 2  1.3GHz,Quadrics,1.131 TFlop/s,1.3312 TFlop/s,"335,872",False,False,Linux,False,False,False,False,"32,000"
+229,"Arches AMD 1.4 GHz, Myrinet",Angstrom,500,0 GB,Athlon  1.4GHz,Myrinet,1.017 TFlop/s,1.4 TFlop/s,"232,000",False,False,Linux,False,False,False,False,"30,700"
+230,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,1.0155 TFlop/s,1.6384 TFlop/s,False,False,False,Linux,False,False,False,False,False
+231,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,1.0155 TFlop/s,1.6384 TFlop/s,False,False,False,Linux,False,False,False,False,False
+232,"Cluster Platform 3000 DL140, Pentium4 Xeon 3.2 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,1.0155 TFlop/s,1.6384 TFlop/s,False,False,False,Linux,False,False,False,False,False
+233,"BladeCenter Xeon 2.8 GHz, Gig-Ethernet",IBM,304,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.01489 TFlop/s,1.7024 TFlop/s,False,False,False,Linux,False,False,False,False,False
+234,Pegasus P4 Xeon Cluster 2.2/2.4/2.8 GHz - Giganet - MSWindows,Self-made,400,0 GB,Pentium 4 Xeon  2.29GHz,Giganet,1.011 TFlop/s,1.843 TFlop/s,"257,912",False,False,Linux,False,False,False,False,False
+235,"BladeCenter Cluster Xeon 2.4 GHz, Gig-Ethernet",IBM,440,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,1.00917 TFlop/s,2.112 TFlop/s,False,False,False,Linux,False,False,False,False,False
+236,Jazz - LCRC Xeon 2.4 GHz - Myrinet,LNXI,361,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,1.007 TFlop/s,1.7328 TFlop/s,"208,000",False,False,Linux,False,False,False,False,"35,000"
+237,"AlphaServer SC40, 833 MHz",HP,812,0 GB,EV68  833MHz,Quadrics,1.007 TFlop/s,1.3528 TFlop/s,"252,700",False,False,Tru64 UNIX,False,False,False,False,"39,954"
+238,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,260,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,1.0155 TFlop/s,1.664 TFlop/s,False,False,False,Linux,False,False,False,False,False
+239,"Pentium4 Xeon 2.8 GHz, Myrinet",LNXI,256,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,1.004 TFlop/s,1.4336 TFlop/s,"245,245",False,False,Linux,False,False,False,False,False
+240,"Pentium4 Xeon 2.8 GHz, Myrinet",LNXI,256,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,1.004 TFlop/s,1.4336 TFlop/s,"245,245",False,False,Linux,False,False,False,False,False
+241,"AlphaServer SC45, 1.25 GHz",HP,512,0 GB,Alpha  1.25GHz,Quadrics,1.004 TFlop/s,1.28 TFlop/s,"159,700",False,False,Tru64 UNIX,False,False,False,False,"34,560"
+242,"Pentium4 Xeon, 2.8 GHz, Gig Ethernet",Self-made,300,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,1.00154 TFlop/s,1.68 TFlop/s,False,False,False,Linux,False,False,False,False,False
+243,CPlant/Ross Cluster,Self-made,"1,800",0 GB,Alpha  495MHz,Myrinet,0.9969 TFlop/s,1.7825 TFlop/s,"310,000",False,False,N/A,False,False,False,False,"56,000"
+244,"Cluster Platform 3000 DL140, Pentium4 Xeon 3.2 GHz, Myrinet",HPE,250,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.992 TFlop/s,1.6 TFlop/s,False,False,False,Linux,False,False,False,False,False
+245,"Cluster Platform 3000 DL140, Pentium4 Xeon 3.2 GHz, Myrinet",HPE,250,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.992 TFlop/s,1.6 TFlop/s,False,False,False,Linux,False,False,False,False,False
+246,"Cluster Platform 3000 DL140, Pentium4 Xeon 3.2 GHz, Myrinet",HPE,250,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.992 TFlop/s,1.6 TFlop/s,False,False,False,Linux,False,False,False,False,False
+247,"Cluster Platform 3000 DL140, Pentium4 Xeon 3.2 GHz, Myrinet",HPE,250,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.992 TFlop/s,1.6 TFlop/s,False,False,False,Linux,False,False,False,False,False
+248,"Pentium Xeon 2.66 GHz, Myrinet",LNXI,256,0 GB,Pentium 4 Xeon  2.67GHz,Myrinet,0.9879 TFlop/s,1.3619 TFlop/s,"205,576",False,False,Linux,False,False,False,False,False
+249,"eServer Opteron 2.0 GHZ, Gig-E",IBM,512,0 GB,Opteron  2GHz,Gigabit Ethernet,1.034 TFlop/s,2.048 TFlop/s,False,False,False,Linux,False,False,False,False,False
+250,SX-6/128M16,NEC,128,0 GB,NEC  1GHz,Multi-stage crossbar,0.982 TFlop/s,1.024 TFlop/s,"204,800",False,False,Super-UX,False,False,False,False,"12,800"
+251,"Cluster Platform 3000 DL360G3 Xeon 3.06 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,0.971 TFlop/s,1.5667 TFlop/s,False,False,False,Linux,False,False,False,False,False
+252,"Cluster Platform 3000 DL140 Xeon 3.06 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,0.971 TFlop/s,1.5667 TFlop/s,False,False,False,Linux,False,False,False,False,False
+253,"Cluster Platform 3000 DL140 Xeon 3.06 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,0.971 TFlop/s,1.5667 TFlop/s,False,False,False,Linux,False,False,False,False,False
+254,"Cluster Platform 3000 DL140 Xeon 3.06 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,0.971 TFlop/s,1.5667 TFlop/s,False,False,False,Linux,False,False,False,False,False
+255,"Integrity Superdome, 1.5 GHz, HPlex",HPE,192,0 GB,Itanium 2  1.5GHz,HyperPlex,0.9691 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+256,"Integrity Superdome, 1.5 GHz, HPlex",HPE,192,0 GB,Itanium 2  1.5GHz,HyperPlex,0.9691 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+257,"Integrity Superdome, 1.5 GHz, HPlex",HPE,192,0 GB,Itanium 2  1.5GHz,HyperPlex,0.9691 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+258,"Integrity Superdome, 1.5 GHz, HPlex",HPE,192,0 GB,Itanium 2  1.5GHz,HyperPlex,0.9691 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+259,"Integrity Superdome, 1.5 GHz, HPlex",HPE,192,0 GB,Itanium 2  1.5GHz,HyperPlex,0.9691 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+260,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,240,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.967 TFlop/s,1.536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+261,"eServer pSeries 655 (1.7 GHz Power4+, GigE)",IBM,320,0 GB,POWER4+ 2C 1.7GHz,Gigabit Ethernet,0.96235 TFlop/s,2.176 TFlop/s,False,False,False,AIX,False,False,False,False,False
+262,xSeries Xeon 3.06 GHz - Gig-E,IBM,256,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.96128 TFlop/s,1.56672 TFlop/s,False,False,False,Linux,False,False,False,False,False
+263,KABRU - Pentium Xeon Cluster 2.4 GHz - SCI 3D,IMSc-Netweb-Summation,288,0 GB,Pentium 4 Xeon  2.4GHz,SCI,1.002 TFlop/s,1.3824 TFlop/s,"184,300",False,False,Linux,False,False,False,False,"31,300"
+264,"eServer pSeries 690 (1.7 GHz Power4+, GigE)",IBM,256,0 GB,POWER4+ 2C 1.7GHz,Gigabit Ethernet,0.94933 TFlop/s,1.7408 TFlop/s,False,False,False,AIX,False,False,False,False,False
+265,xSeries Cluster Xeon 2.4 GHz - Myrinet,IBM,320,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,0.94901 TFlop/s,1.536 TFlop/s,False,False,False,Linux,False,False,False,False,False
+266,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,252,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.94626 TFlop/s,1.54224 TFlop/s,False,False,False,Linux,False,False,False,False,False
+267,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,252,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.94626 TFlop/s,1.54224 TFlop/s,False,False,False,Linux,False,False,False,False,False
+268,"Cluster Platform 6000 zx6000 Itanium2 1.5 GHz, Myrinet",HPE,196,0 GB,Itanium 2  1.5GHz,Myrinet,0.943 TFlop/s,1.176 TFlop/s,False,False,False,Linux,False,False,False,False,False
+269,"Fire V60 Cluster, 2.8 GHz, Gig E",Sun,340,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.93963 TFlop/s,1.904 TFlop/s,False,False,False,N/A,False,False,False,False,False
+270,Cray X1,Cray/HPE,80,0 GB,Cray X1  800MHz,Crossbar,0.937 TFlop/s,1.024 TFlop/s,"194,560",False,False,UNICOS,False,False,False,False,"21,376"
+271,SGI Altix 1.3 GHz,HPE,208,0 GB,Itanium 2  1.3GHz,NUMAlink,0.93684 TFlop/s,1.0816 TFlop/s,False,False,False,Linux,False,False,False,False,False
+272,"P4 Xeon 2.4 GHz, Infiniband",Advanced Computing,256,0 GB,Pentium 4 Xeon  2.4GHz,Infiniband,0.9331 TFlop/s,1.2288 TFlop/s,"140,000",False,False,Linux,False,False,False,False,False
+273,xSeries Xeon 3.06 GHz - Gig-E,IBM,248,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.93124 TFlop/s,1.51776 TFlop/s,False,False,False,Linux,False,False,False,False,False
+274,SP Power3 375 MHz 8 way,IBM,"1,152",0 GB,POWER3  375MHz,SP Switch,0.929 TFlop/s,1.728 TFlop/s,"220,000",False,False,AIX,False,False,False,False,"62,000"
+275,SX-6/120M15,NEC,120,0 GB,NEC  1GHz,Multi-stage crossbar,0.9276 TFlop/s,0.96 TFlop/s,"204,000",False,False,Super-UX,False,False,False,False,"19,440"
+276,SX-6/120M15,NEC,120,0 GB,NEC  1GHz,Multi-stage crossbar,0.9276 TFlop/s,0.96 TFlop/s,"204,000",False,False,Super-UX,False,False,False,False,"19,440"
+277,"Opteron 2.0 GHz, Infiniband",Cray/HPE,288,0 GB,Opteron  2GHz,Infiniband,0.9228 TFlop/s,1.152 TFlop/s,"200,000",False,False,SuSE Linux Enterprise Server 8,False,False,False,False,"32,500"
+278,"PowerEdge 1750, Pentium4 Xeon 3.06 GHz, GigE",Dell EMC,256,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.92211 TFlop/s,1.56672 TFlop/s,False,False,False,Linux,False,False,False,False,False
+279,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,228,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.919 TFlop/s,1.4592 TFlop/s,False,False,False,Linux,False,False,False,False,False
+280,SR8000-F1/100,Hitachi,100,0 GB,Hitachi SR8000  375MHz,Multi-dimensional crossbar,0.917 TFlop/s,1.2 TFlop/s,"115,000",False,False,HI-UX/MPP,False,False,False,False,"15,000"
+281,"xSeries Xeon 2.8 GHz, NPACI-ROCKS, Myrinet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.9165 TFlop/s,1.4336 TFlop/s,"150,000",False,False,Linux,False,False,False,False,"25,000"
+282,"Cluster Platform 3000 DL380G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,260,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.902 TFlop/s,1.456 TFlop/s,False,False,False,Linux,False,False,False,False,False
+283,"Cluster Platform DL360G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.8993 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+284,"Cluster Platform 3000 DL380G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.8993 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+285,"Cluster Platform DL360G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,256,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.8993 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+286,"BladeCenter Xeon 2.8 GHz, Gig-Ethernet",IBM,268,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.8948 TFlop/s,1.5008 TFlop/s,False,False,False,Linux,False,False,False,False,False
+287,Fire 15k/6800 Cluster,Sun,672,0 GB,UltraSPARC III  900MHz,Fireplane,0.8914 TFlop/s,1.2096 TFlop/s,False,False,False,Solaris,False,False,False,False,False
+288,"NEC Opteron Cluster, 2.0 GHz, GigEthernet",NEC,360,0 GB,Opteron  2GHz,Gigabit Ethernet,0.891 TFlop/s,1.44 TFlop/s,"260,000",False,False,Linux,False,False,False,False,False
+289,SP Power3 375 MHz 16 way,IBM,812,0 GB,POWER3  375MHz,SP Switch,0.891 TFlop/s,1.218 TFlop/s,False,False,False,AIX,False,False,False,False,False
+290,"e-Science Cluster, Opteron 2.2 GHz, Myrinet",Streamline Computing,256,0 GB,Opteron  2.2GHz,Myrinet,0.8885 TFlop/s,1.1264 TFlop/s,"245,600",False,False,Linux,False,False,False,False,"30,000"
+291,"Prairiefire Opteron 2.2 GHz, Myrinet",Atipa,256,0 GB,Opteron  2.2GHz,Myrinet,0.8885 TFlop/s,1.1264 TFlop/s,"245,600",False,False,Linux,False,False,False,False,"30,000"
+292,pSeries 690 Turbo 1.3GHz,IBM,320,0 GB,POWER4 2C 1.3GHz,Colony,0.8873 TFlop/s,1.664 TFlop/s,False,False,False,AIX,False,False,False,False,False
+293,"Rose - PowerEdge 1750, Pentium4 Xeon 3.06 GHz, Infiniband",Dell EMC,192,0 GB,Pentium 4 Xeon  3.06GHz,Infiniband,0.882 TFlop/s,1.175 TFlop/s,"150,000",False,False,Linux,False,False,False,False,False
+294,LION-XL - PowerEdge 2650 Cluster P4 Xeon 2.4 GHz - Quadrics,Dell EMC,256,0 GB,Pentium 4 Xeon  2.4GHz,Quadrics,0.8779 TFlop/s,1.2288 TFlop/s,"160,000",False,False,Linux,False,False,False,False,False
+295,SR8000/128,Hitachi,128,0 GB,Hitachi SR8000  250MHz,Multi-dimensional crossbar,0.873 TFlop/s,1.024 TFlop/s,"120,000",False,False,HI-UX/MPP,False,False,False,False,"16,000"
+296,"Fire V60 Cluster, 2.8 GHz, Gig Ethernet",Sun,320,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.87227 TFlop/s,1.792 TFlop/s,False,False,False,N/A,False,False,False,False,False
+297,"AlphaServer SC45, 1 GHz",HP,512,0 GB,Alpha  1GHz,Quadrics,0.8622 TFlop/s,1.024 TFlop/s,"205,000",False,False,Tru64 UNIX,False,False,False,False,"26,000"
+298,"emerald - AlphaServer SC45, 1 GHz",HP,512,0 GB,Alpha  1GHz,Quadrics,0.8622 TFlop/s,1.024 TFlop/s,"205,000",False,False,Tru64 UNIX,False,False,False,False,"26,000"
+299,"AlphaServer SC45, 1 GHz",HP,512,0 GB,Alpha  1GHz,Quadrics,0.8622 TFlop/s,1.024 TFlop/s,"205,000",False,False,Tru64 UNIX,False,False,False,False,"26,000"
+300,"BladeCenter Cluster, Xeon 2.8 GHz, Gig-Ethernet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.85477 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+301,"BladeCenter Cluster, Xeon 2.8 GHz, Gig-Ethernet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.85477 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+302,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.85477 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+303,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.85477 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+304,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.85477 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+305,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.85477 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+306,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.85477 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+307,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.85477 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+308,"HPCPower - xSeries Xeon 2.8 GHz, GigEthernet",IBM,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.85477 TFlop/s,1.4336 TFlop/s,False,False,False,Linux,False,False,False,False,False
+309,ORIGIN 3000 600 MHz,HPE,"1,024",0 GB,R14000A  600MHz,NUMAflex,0.8529 TFlop/s,1.2288 TFlop/s,"129,024",False,False,IRIX,False,False,False,False,"31,744"
+310,"Integrity Superdome, 1.5 GHz, HPlex",HPE,176,0 GB,Itanium 2  1.5GHz,HyperPlex,0.844 TFlop/s,1.056 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+311,Grendels - Grendels P4 Cluster 2.4 GHz - Myrinet,LNXI,252,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,0.8405 TFlop/s,1.2096 TFlop/s,"175,760",False,False,Linux,False,False,False,False,"27,768"
+312,xSeries Cluster Xeon 2.4 GHz - Myrinet,IBM,256,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,0.84002 TFlop/s,1.2288 TFlop/s,False,False,False,Linux,False,False,False,False,False
+313,xSeries Cluster Xeon 2.4 GHz - Myrinet,IBM,256,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,0.84002 TFlop/s,1.2288 TFlop/s,False,False,False,Linux,False,False,False,False,False
+314,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,392,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.83893 TFlop/s,1.8816 TFlop/s,False,False,False,Linux,False,False,False,False,False
+315,"eServer pSeries 690 (1.7 GHz Power4+, GigE)",IBM,224,0 GB,POWER4+ 2C 1.7GHz,Gigabit Ethernet,0.83067 TFlop/s,1.5232 TFlop/s,False,False,False,AIX,False,False,False,False,False
+316,"DeepSuper-21C, P4 Xeon 3.06/2.8 GHz, Myrinet",Self-made,256,0 GB,Pentium 4 Xeon  2.96GHz,Myrinet,0.8773 TFlop/s,1.50016 TFlop/s,"112,000",False,False,Linux,False,False,False,False,"27,560"
+317,"eServer pSeries 655 (1.5 GHz Power4+, GigE)",IBM,256,0 GB,POWER4 2C 1.5GHz,Gigabit Ethernet,0.83 TFlop/s,1.536 TFlop/s,False,False,False,AIX,False,False,False,False,False
+318,pSeries 690 Turbo 1.3GHz GigEth,IBM,512,0 GB,POWER4 2C 1.3GHz,Gigabit Ethernet,0.8265 TFlop/s,2.6624 TFlop/s,False,False,False,AIX,False,False,False,False,False
+319,"AlphaServer SC45, 1 GHz",HP,508,0 GB,Alpha  1GHz,Quadrics,0.8255 TFlop/s,1.016 TFlop/s,"170,000",False,False,Tru64 UNIX,False,False,False,False,"26,000"
+320,HELICS AMD 1.4 GHz - Myrinet,MEGWARE,512,0 GB,Athlon  1.4GHz,Myrinet,0.825 TFlop/s,1.4336 TFlop/s,"171,000",False,False,Linux,False,False,False,False,False
+321,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,384,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.82285 TFlop/s,1.8432 TFlop/s,False,False,False,Linux,False,False,False,False,False
+322,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,384,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.82285 TFlop/s,1.8432 TFlop/s,False,False,False,Linux,False,False,False,False,False
+323,"Cluster Platform 3000 DL140, Pentium4 Xeon 3.2 GHz, Myrinet",HPE,200,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.8192 TFlop/s,1.28 TFlop/s,False,False,False,Linux,False,False,False,False,False
+324,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,200,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.8192 TFlop/s,1.28 TFlop/s,False,False,False,Linux,False,False,False,False,False
+325,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,200,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.8192 TFlop/s,1.28 TFlop/s,False,False,False,Linux,False,False,False,False,False
+326,T3E900,Cray/HPE,"1,324",0 GB,EV5  450MHz,3-D Torus,0.815 TFlop/s,1.1916 TFlop/s,"134,400",False,False,UNICOS,False,False,False,False,"26,880"
+327,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,376,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.80678 TFlop/s,1.8048 TFlop/s,False,False,False,Linux,False,False,False,False,False
+328,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,240,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.80139 TFlop/s,1.344 TFlop/s,False,False,False,Linux,False,False,False,False,False
+329,"Cluster Platform DL360G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,220,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.8008 TFlop/s,1.232 TFlop/s,False,False,False,Linux,False,False,False,False,False
+330,SP Power3 375 MHz,IBM,768,0 GB,POWER3  375MHz,SP Switch,0.795 TFlop/s,1.152 TFlop/s,False,False,False,AIX,False,False,False,False,False
+331,AMD AthlonMP Cluster 1.65 GHz,Self-made,512,0 GB,Athlon  1.65GHz,Fast Ethernet,0.794 TFlop/s,1.69 TFlop/s,"223,000",False,False,Linux,False,False,False,False,"37,000"
+332,SR8000-G1/64,Hitachi,64,0 GB,Hitachi SR8000  450MHz,Multi-dimensional crossbar,0.7907 TFlop/s,0.9216 TFlop/s,"110,000",False,False,HI-UX/MPP,False,False,False,False,"8,504"
+333,Presto III Athlon 1.6 GHz,Self-made,486,0 GB,Athlon  1.6GHz,Myrinet,0.7888 TFlop/s,1.5552 TFlop/s,"121,500",False,False,Linux,False,False,False,False,False
+334,"xSeries Xeon 2.8 GHz, Gig-Ethernet",IBM,236,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.78805 TFlop/s,1.3216 TFlop/s,False,False,False,Linux,False,False,False,False,False
+335,"PowerEdge 2650, P4 Xeon 3.06/2.4 GHz, Myrinet",Dell EMC,252,0 GB,Pentium 4 Xeon  2.73GHz,Myrinet,0.7871 TFlop/s,1.37592 TFlop/s,"162,400",False,False,Linux,False,False,False,False,False
+336,"Cluster Platform DL360G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,216,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.7858 TFlop/s,1.2096 TFlop/s,False,False,False,Linux,False,False,False,False,False
+337,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,234,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.78138 TFlop/s,1.3104 TFlop/s,False,False,False,Linux,False,False,False,False,False
+338,"xSeries Xeon 2.8 GHz, GigEthernet",IBM,234,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.78138 TFlop/s,1.3104 TFlop/s,False,False,False,Linux,False,False,False,False,False
+339,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,208,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.78104 TFlop/s,1.27296 TFlop/s,False,False,False,Linux,False,False,False,False,False
+340,eServer Opteron 2.2 GHz. Myrinet,IBM,256,0 GB,Opteron  2.2GHz,Myrinet,0.82 TFlop/s,1.1264 TFlop/s,False,False,False,Linux,False,False,False,False,False
+341,pSeries 690 Turbo 1.3GHz GigEth,IBM,448,0 GB,POWER4 2C 1.3GHz,Gigabit Ethernet,0.767 TFlop/s,2.3296 TFlop/s,False,False,False,AIX,False,False,False,False,False
+342,"Cluster Platform 6000 zx6000 Itanium2 900 MHz, Myrinet",HPE,256,0 GB,Itanium 2  900MHz,Myrinet,0.7619 TFlop/s,0.9216 TFlop/s,"228,000",False,False,Linux,False,False,False,False,"50,000"
+343,"Space Simulator, P4 2.53 GHz - GigEth",Self-made,288,0 GB,Pentium 4 Xeon  2.53GHz,Gigabit Ethernet,0.7571 TFlop/s,1.457 TFlop/s,"180,000",False,False,Linux,False,False,False,False,"44,000"
+344,SuperDome 875 MHz/HyperPlex,HPE,512,0 GB,PA-8700+  875MHz,HyperPlex,1.048 TFlop/s,1.792 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+345,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+346,SuperDome 875 MHz/HyperPlex,HP,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+347,SuperDome 875 MHz/HyperPlex,HP,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+348,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+349,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+350,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+351,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+352,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+353,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+354,pSeries 690 Turbo 1.3GHz,IBM,264,0 GB,POWER4 2C 1.3GHz,Colony,0.755 TFlop/s,1.3728 TFlop/s,False,False,False,AIX,False,False,False,False,False
+355,"eServer pSeries 655 (1.5 GHz Power4+, GigE)",IBM,232,0 GB,POWER4 2C 1.5GHz,Gigabit Ethernet,0.75 TFlop/s,1.392 TFlop/s,False,False,False,AIX,False,False,False,False,False
+356,"TS10000, P4 Xeon 2.8 GHz, Infiniband4x",Langchao,192,0 GB,Pentium 4 Xeon  2.8GHz,Infiniband,0.749 TFlop/s,1.0752 TFlop/s,"141,000",False,False,Linux,False,False,False,False,"35,000"
+357,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+358,SuperDome 875 MHz/HyperPlex,HP,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+359,SuperDome 875 MHz/HyperPlex,HP,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+360,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+361,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+362,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+363,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+364,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+365,SuperDome 875 MHz/HyperPlex,HPE,384,0 GB,PA-8700+  875MHz,HyperPlex,0.785 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+366,pSeries 690 Turbo 1.3GHz,IBM,256,0 GB,POWER4 2C 1.3GHz,Colony,0.7366 TFlop/s,1.3312 TFlop/s,"285,000",False,False,AIX,False,False,False,False,"25,000"
+367,pSeries 690 Turbo 1.3GHz,IBM,256,0 GB,POWER4 2C 1.3GHz,Colony,0.7366 TFlop/s,1.3312 TFlop/s,"285,000",False,False,AIX,False,False,False,False,"25,000"
+368,pSeries 690 Turbo 1.3GHz,IBM,256,0 GB,POWER4 2C 1.3GHz,Colony,0.7366 TFlop/s,1.3312 TFlop/s,"285,000",False,False,AIX,False,False,False,False,"25,000"
+369,pSeries 690 Turbo 1.3GHz,IBM,256,0 GB,POWER4 2C 1.3GHz,Colony,0.7366 TFlop/s,1.3312 TFlop/s,"285,000",False,False,AIX,False,False,False,False,"25,000"
+370,pSeries 690 Turbo 1.3 GHz,IBM,256,0 GB,POWER4 2C 1.3GHz,Federation,0.7366 TFlop/s,1.3312 TFlop/s,False,False,False,AIX,False,False,False,False,False
+371,"BladeCenter Xeon 3.06 GHz, Gig-Ethernet",IBM,196,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.73598 TFlop/s,1.19952 TFlop/s,False,False,False,Linux,False,False,False,False,False
+372,DeepComp 1800 - P4 Xeon 2.4 GHz - Myrinet,Lenovo,256,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,0.7358 TFlop/s,1.228 TFlop/s,"114,920",False,False,Linux,False,False,False,False,"28,000"
+373,eServer pSeries 655 (1.5 GHz Power4+),IBM,192,0 GB,POWER4+ 2C 1.5GHz,Federation,0.73518 TFlop/s,1.152 TFlop/s,False,False,False,AIX,False,False,False,False,False
+374,eServer pSeries 655 (1.5 GHz Power4+),IBM,192,0 GB,POWER4+ 2C 1.5GHz,Federation,0.73518 TFlop/s,1.152 TFlop/s,False,False,False,AIX,False,False,False,False,False
+375,MVS1000M EV67 667 MHz,Self-made,768,0 GB,EV67  666MHz,Myrinet,0.7346 TFlop/s,1.024 TFlop/s,"270,000",False,False,N/A,False,False,False,False,"30,000"
+376,"Cluster Platform 3000 DL380G3, Pentium4 Xeon 2.8 GHz, Myrinet",HPE,192,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.7311 TFlop/s,1.0752 TFlop/s,False,False,False,Linux,False,False,False,False,False
+377,VPP5000/80,Fujitsu,80,0 GB,Fujitsu  300MHz,Full distributed crossbar,0.73 TFlop/s,0.768 TFlop/s,"273,600",False,False,UXP/V,False,False,False,False,"15,360"
+378,Altix 3700 900 MHz,HPE,256,0 GB,Itanium 2  900MHz,NUMAlink,0.7274 TFlop/s,0.9216 TFlop/s,False,False,False,Linux,False,False,False,False,False
+379,eServer pSeries 655 (1.1 GHz Power4),IBM,256,0 GB,POWER4 2C 1.1GHz,Colony,0.7263 TFlop/s,1.126 TFlop/s,"300,000",False,False,AIX,False,False,False,False,"20,000"
+380,eServer pSeries 655 (1.1 GHz Power4),IBM,256,0 GB,POWER4 2C 1.1GHz,Colony,0.7263 TFlop/s,1.126 TFlop/s,"300,000",False,False,AIX,False,False,False,False,"20,000"
+381,SP Power3 375 MHz,IBM,704,0 GB,POWER3  375MHz,SP Switch,0.723 TFlop/s,1.056 TFlop/s,"187,000",False,False,AIX,False,False,False,False,"37,500"
+382,"MVS-5000BM - MVS-5000BM, eServer BladeCenter JS20 (PowerPC970 1.6 GHz), Myrinet",IBM,168,0 GB,PowerPC 970 2C 1.6GHz,Myrinet,0.7221 TFlop/s,1.0752 TFlop/s,"200,000",False,False,Linux,False,False,False,False,"33,000"
+383,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,332,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.71838 TFlop/s,1.5936 TFlop/s,False,False,False,Linux,False,False,False,False,False
+384,SuperDome 875 MHz/HyperPlex,HPE,416,0 GB,PA-8700+  875MHz,HyperPlex,0.8506 TFlop/s,1.456 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+385,SuperDome 875 MHz/HyperPlex,HP,416,0 GB,PA-8700+  875MHz,HyperPlex,0.8506 TFlop/s,1.456 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+386,"eServer pSeries 690 (1.7 GHz Power4+, GigE)",IBM,192,0 GB,POWER4+ 2C 1.7GHz,Gigabit Ethernet,0.712 TFlop/s,1.3056 TFlop/s,False,False,False,AIX,False,False,False,False,False
+387,"Fire V60 Cluster, 2.8 GHz, Gig E",Sun,272,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.71059 TFlop/s,1.5232 TFlop/s,False,False,False,N/A,False,False,False,False,False
+388,pSeries 690 Turbo 1.3GHz GigEth,IBM,384,0 GB,POWER4 2C 1.3GHz,Gigabit Ethernet,0.708 TFlop/s,1.9968 TFlop/s,False,False,False,AIX,False,False,False,False,False
+389,pSeries 690 Turbo 1.3GHz GigEth,IBM,384,0 GB,POWER4 2C 1.3GHz,Gigabit Ethernet,0.708 TFlop/s,1.9968 TFlop/s,False,False,False,AIX,False,False,False,False,False
+390,Cray X1,Cray/HPE,60,0 GB,Cray X1  800MHz,Crossbar,0.70635 TFlop/s,0.768 TFlop/s,"168,960",False,False,UNICOS,False,False,False,False,"18,432"
+391,Cray X1,Cray/HPE,60,0 GB,Cray X1  800MHz,Crossbar,0.70635 TFlop/s,0.768 TFlop/s,"168,960",False,False,UNICOS,False,False,False,False,"18,432"
+392,Cray X1,Cray/HPE,60,0 GB,Cray X1  800MHz,Crossbar,0.70635 TFlop/s,0.768 TFlop/s,"168,960",False,False,UNICOS,False,False,False,False,"18,432"
+393,"P4 Xeon 3.06 &amp; 2.66 GHz, GigE",MEGWARE,256,0 GB,Pentium 4 Xeon  2.86GHz,Gigabit Ethernet,0.706 TFlop/s,1.461 TFlop/s,"160,000",False,False,Linux,False,False,False,False,False
+394,Longhorn - pSeries p690/p655 1.3GHz,IBM,224,0 GB,POWER4 2C 1.3GHz,Colony,0.7048 TFlop/s,1.1648 TFlop/s,False,False,False,AIX,False,False,False,False,False
+395,"strider - Cray Opteron 2 GHz, Myrinet",Cray/HPE,250,0 GB,Opteron  2GHz,Myrinet,0.7033 TFlop/s,1 TFlop/s,False,False,False,Linux,False,False,False,False,False
+396,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,324,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.7023 TFlop/s,1.5552 TFlop/s,False,False,False,Linux,False,False,False,False,False
+397,"Rocks V60x Cluster 2.8 GHz, Gig Ethernet",Sun,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.699 TFlop/s,1.4336 TFlop/s,"114,400",False,False,N/A,False,False,False,False,"10,000"
+398,"Fire V60 Cluster, Gig Ethernet",Sun,256,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.699 TFlop/s,1.4336 TFlop/s,"114,400",False,False,N/A,False,False,False,False,"10,000"
+399,SGI Altix 1.3 GHz,HPE,152,0 GB,Itanium 2  1.3GHz,NUMAlink,0.69748 TFlop/s,0.7904 TFlop/s,False,False,False,Linux,False,False,False,False,False
+400,"Cluster Platform 3000 DL360G3, Xeon 3.2 GHz, Myrinet",HPE,160,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.696 TFlop/s,1.024 TFlop/s,False,False,False,Linux,False,False,False,False,False
+401,SR8000-E1/80,Hitachi,80,0 GB,Hitachi SR8000  300MHz,Multi-dimensional crossbar,0.6913 TFlop/s,0.768 TFlop/s,"120,000",False,False,HI-UX/MPP,False,False,False,False,"9,408"
+402,SuperDome 875 MHz/HyperPlex,HPE,352,0 GB,PA-8700+  875MHz,HyperPlex,0.739 TFlop/s,1.232 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+403,SuperDome 875 MHz/HyperPlex,HPE,352,0 GB,PA-8700+  875MHz,HyperPlex,0.739 TFlop/s,1.232 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+404,SuperDome 875 MHz/HyperPlex,HP,352,0 GB,PA-8700+  875MHz,HyperPlex,0.739 TFlop/s,1.232 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+405,SuperDome 875 MHz/HyperPlex,HPE,352,0 GB,PA-8700+  875MHz,HyperPlex,0.739 TFlop/s,1.232 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+406,ORIGIN 2000 250 MHz,HPE,"2,048",0 GB,R10000  250MHz,Hypercube,0.6909 TFlop/s,1.024 TFlop/s,"229,248",False,False,IRIX,False,False,False,False,"80,640"
+407,"AlphaServer SC40, 833 MHz",HP,512,0 GB,EV68  833MHz,Quadrics,0.6909 TFlop/s,0.853 TFlop/s,"185,000",False,False,Tru64 UNIX,False,False,False,False,"40,000"
+408,"Morpheus - Opteron 1.8 GHz, Myrinet",Verari,256,0 GB,Opteron  1.8GHz,Myrinet,0.6871 TFlop/s,0.9216 TFlop/s,"147,000",False,False,Linux,False,False,False,False,"24,200"
+409,"Opteron 1.8 GHz, Myrinet",Cray/HPE,256,0 GB,Opteron  1.8GHz,Myrinet,0.6871 TFlop/s,0.9216 TFlop/s,"147,000",False,False,Linux,False,False,False,False,"24,200"
+410,"Cluster Platform 6000 rx2600 Itanium2 1.5 GHz, Infiniband",HPE,128,0 GB,Itanium 2  1.5GHz,Infiniband,0.683 TFlop/s,0.768 TFlop/s,False,False,False,Linux,False,False,False,False,False
+411,"Cluster Platform 6000 rx2600 Itanium2 1.5 GHz, Infiniband",HPE,128,0 GB,Itanium 2  1.5GHz,Infiniband,0.683 TFlop/s,0.768 TFlop/s,False,False,False,Linux,False,False,False,False,False
+412,Demeter - P4 Xeon 2.6 Ghz - Myrinet,Linux Labs,240,0 GB,Pentium 4 Xeon  2.6GHz,Myrinet,0.6803 TFlop/s,1.248 TFlop/s,"163,750",False,False,Linux,False,False,False,False,"25,400"
+413,pSeries 690 Turbo 1.3GHz,IBM,240,0 GB,POWER4 2C 1.3GHz,Colony,0.68 TFlop/s,1.248 TFlop/s,False,False,False,AIX,False,False,False,False,False
+414,pSeries 690 Turbo 1.3GHz,IBM,240,0 GB,POWER4 2C 1.3GHz,Colony,0.68 TFlop/s,1.248 TFlop/s,False,False,False,AIX,False,False,False,False,False
+415,"Cluster Platform 3000 DL140, Pentium4 Xeon 3.2 GHz, Myrinet",HPE,155,0 GB,Pentium 4 Xeon  3.2GHz,Myrinet,0.674 TFlop/s,0.992 TFlop/s,False,False,False,Linux,False,False,False,False,False
+416,P4 Xeon Cluster 2.4 GHz - Myrinet,Self-made,256,0 GB,Pentium 4 Xeon  2.4GHz,Myrinet,0.6713 TFlop/s,1.2288 TFlop/s,"100,000",False,False,Linux,False,False,False,False,"20,000"
+417,SGI Altix 1.5 GHz,HPE,128,0 GB,Itanium 2  1.5GHz,NUMAlink,0.6683 TFlop/s,0.768 TFlop/s,"224,000",False,False,Linux,False,False,False,False,False
+418,SGI Altix 1.5 GHz,HPE,128,0 GB,Itanium 2  1.5GHz,NUMAlink,0.6683 TFlop/s,0.768 TFlop/s,"224,000",False,False,Linux,False,False,False,False,False
+419,SGI Altix 1.5 GHz,HPE,128,0 GB,Itanium 2  1.5GHz,NUMAlink,0.6683 TFlop/s,0.768 TFlop/s,"224,000",False,False,Linux,False,False,False,False,False
+420,SGI Altix 1.5 GHz,HPE,128,0 GB,Itanium 2  1.5GHz,NUMAlink,0.6683 TFlop/s,0.768 TFlop/s,"224,000",False,False,Linux,False,False,False,False,False
+421,SGI Altix 1.5 GHz,HPE,128,0 GB,Itanium 2  1.5GHz,NUMAlink,0.6683 TFlop/s,0.768 TFlop/s,"224,000",False,False,Linux,False,False,False,False,False
+422,xSeries Cluster Xeon 2.8 GHz - Myrinet,IBM,192,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.66157 TFlop/s,1.0752 TFlop/s,False,False,False,Linux,False,False,False,False,False
+423,"Fire V60 Cluster, 3.06 GHz, Myrinet",Sun,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,0.6567 TFlop/s,1.56672 TFlop/s,False,False,False,N/A,False,False,False,False,False
+424,"Fire V60 Cluster, 3.06 GHz, Myrinet",Sun,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,0.6567 TFlop/s,1.56672 TFlop/s,False,False,False,N/A,False,False,False,False,False
+425,"Fire V60 Cluster, 3.06 GHz, Myrinet",Sun,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,0.6567 TFlop/s,1.56672 TFlop/s,False,False,False,N/A,False,False,False,False,False
+426,"Fire V60 Cluster, 3.06 GHz, Myrinet",Sun,256,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,0.6567 TFlop/s,1.56672 TFlop/s,False,False,False,N/A,False,False,False,False,False
+427,"Fire V60 Cluster, 3.06 GHz, Gig Ethernet",Sun,256,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.6567 TFlop/s,1.56672 TFlop/s,False,False,False,N/A,False,False,False,False,False
+428,"Fire V60 Cluster, 3.06 GHz, Gig Ethernet",Sun,256,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.6567 TFlop/s,1.56672 TFlop/s,False,False,False,N/A,False,False,False,False,False
+429,"Fire V60 Cluster, 3.06 GHz, Gig Ethernet",Sun,256,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.6567 TFlop/s,1.56672 TFlop/s,False,False,False,N/A,False,False,False,False,False
+430,"Fire V60 Cluster, Myrinet",Sun,256,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.6567 TFlop/s,1.4336 TFlop/s,False,False,False,N/A,False,False,False,False,False
+431,"Fire V60 Cluster, Myrinet",Sun,256,0 GB,Pentium 4 Xeon  2.8GHz,Myrinet,0.6567 TFlop/s,1.4336 TFlop/s,False,False,False,N/A,False,False,False,False,False
+432,"Tsunami - P4 Xeon 3.06 GHz, Myrinet",ClusterVision,170,0 GB,Pentium 4 Xeon  3.06GHz,Myrinet,0.6552 TFlop/s,1.0404 TFlop/s,"120,000",False,False,Linux,False,False,False,False,"19,000"
+433,xSeries Cluster Xeon 2.0 GHz - Myrinet,IBM,256,0 GB,Pentium 4 Xeon  2GHz,Myrinet,0.6547 TFlop/s,1.024 TFlop/s,"159,000",False,False,Linux,False,False,False,False,False
+434,"eServer Opteron 2.2 GHZ, Gig-E",IBM,330,0 GB,Opteron  2.2GHz,Gigabit Ethernet,0.8087 TFlop/s,1.452 TFlop/s,False,False,False,Linux,False,False,False,False,False
+435,Magi Cluster PIII 933 MHz,NEC,"1,040",0 GB,Pentium 3  933MHz,Myrinet,0.654 TFlop/s,0.97 TFlop/s,"217,600",False,False,Linux,False,False,False,False,"29,000"
+436,"eServer Opteron 2.0 GHZ, Gig-E",IBM,900,0 GB,Opteron  2GHz,Gigabit Ethernet,1.034 TFlop/s,3.6 TFlop/s,False,False,False,Linux,False,False,False,False,False
+437,"eServer Opteron 2.0 GHZ, Gig-E",IBM,480,0 GB,Opteron  2GHz,Gigabit Ethernet,1.034 TFlop/s,1.92 TFlop/s,False,False,False,Linux,False,False,False,False,False
+438,"eServer Opteron 2.0 GHZ, Gig-E",IBM,480,0 GB,Opteron  2GHz,Gigabit Ethernet,1.034 TFlop/s,1.92 TFlop/s,False,False,False,Linux,False,False,False,False,False
+439,"eServer Opteron 2.0 GHZ, Gig-E",IBM,480,0 GB,Opteron  2GHz,Gigabit Ethernet,1.034 TFlop/s,1.92 TFlop/s,False,False,False,Linux,False,False,False,False,False
+440,"eServer Opteron 2.0 GHZ, Gig-E",IBM,480,0 GB,Opteron  2GHz,Gigabit Ethernet,1.034 TFlop/s,1.92 TFlop/s,False,False,False,Linux,False,False,False,False,False
+441,"eServer Opteron 2.0 GHZ, Gig-E",IBM,256,0 GB,Opteron  2GHz,Gigabit Ethernet,0.68328 TFlop/s,1.024 TFlop/s,False,False,False,Linux,False,False,False,False,False
+442,"eServer Opteron 2.0 GHZ, Gig-E",IBM,240,0 GB,Opteron  2GHz,Gigabit Ethernet,0.6514 TFlop/s,0.96 TFlop/s,"166,000",False,False,Linux,False,False,False,False,"43,200"
+443,pSeries 690 Turbo 1.5 Ghz GigEth,IBM,256,0 GB,POWER4 2C 1.5GHz,Gigabit Ethernet,0.6512 TFlop/s,1.536 TFlop/s,False,False,False,AIX,False,False,False,False,False
+444,SuperDome 875 MHz/HyperPlex,HP,320,0 GB,PA-8700+  875MHz,HyperPlex,0.651 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+445,SuperDome 875 MHz/HyperPlex,HPE,320,0 GB,PA-8700+  875MHz,HyperPlex,0.651 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+446,PowerEdge 2650 Cluster P4 Xeon 2.4 GHz - GigE,Dell EMC,264,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.65 TFlop/s,1.2672 TFlop/s,False,False,False,Linux,False,False,False,False,False
+447,pSeries 690 Turbo 1.3 GHz GigEth,IBM,320,0 GB,POWER4 2C 1.3GHz,Gigabit Ethernet,0.64927 TFlop/s,1.664 TFlop/s,False,False,False,AIX,False,False,False,False,False
+448,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+449,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+450,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+451,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+452,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+453,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+454,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+455,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+456,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+457,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+458,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+459,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+460,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+461,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+462,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+463,"Integrity Superdome, 1.5 GHz, HPlex",HPE,128,0 GB,Itanium 2  1.5GHz,HyperPlex,0.6429 TFlop/s,0.768 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+464,"Holk - Itanium2 1.3 GHz, Gig Ethernet",Optimus,256,0 GB,Itanium 2  1.3GHz,Gigabit Ethernet,0.6416 TFlop/s,1.3312 TFlop/s,"164,000",False,False,Linux,False,False,False,False,False
+465,SuperDome 875 MHz/HyperPlex,HPE,320,0 GB,PA-8700+  875MHz,HyperPlex,0.638 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+466,SuperDome 875 MHz/HyperPlex,HP,320,0 GB,PA-8700+  875MHz,HyperPlex,0.638 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+467,SuperDome 875 MHz/HyperPlex,HPE,320,0 GB,PA-8700+  875MHz,HyperPlex,0.638 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+468,SuperDome 875 MHz/HyperPlex,HP,320,0 GB,PA-8700+  875MHz,HyperPlex,0.638 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+469,SuperDome 875 MHz/HyperPlex,HP,320,0 GB,PA-8700+  875MHz,HyperPlex,0.638 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+470,SuperDome 875 MHz/HyperPlex,HP,320,0 GB,PA-8700+  875MHz,HyperPlex,0.638 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+471,SuperDome 875 MHz/HyperPlex,HPE,320,0 GB,PA-8700+  875MHz,HyperPlex,0.638 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+472,SuperDome 875 MHz/HyperPlex,HP,320,0 GB,PA-8700+  875MHz,HyperPlex,0.638 TFlop/s,1.12 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+473,"Cluster Platform 6000 rx2600 Itanium2 1.5 GHz, Quadrics",HPE,128,0 GB,Itanium 2  1.5GHz,Quadrics,0.637 TFlop/s,0.768 TFlop/s,"144,000",False,False,Linux,False,False,False,False,"27,000"
+474,"Cluster Platform 6000 rx2600 Itanium2 1.5 GHz, Quadrics",HP,128,0 GB,Itanium 2  1.5GHz,Quadrics,0.637 TFlop/s,0.768 TFlop/s,"144,000",False,False,Linux,False,False,False,False,"27,000"
+475,Cluster Platform 6000 zx6000 Itanium2 1.5 GHz,HPE,128,0 GB,Itanium 2  1.5GHz,Fast Ethernet,0.637 TFlop/s,0.768 TFlop/s,False,False,False,Linux,False,False,False,False,False
+476,xSeries Cluster Xeon 2.4 GHz - Gig-E,IBM,290,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.63399 TFlop/s,1.392 TFlop/s,False,False,False,Linux,False,False,False,False,False
+477,"eServer pSeries 655 (1.5 GHz Power4+, GigE)",IBM,184,0 GB,POWER4 2C 1.5GHz,Gigabit Ethernet,0.62426 TFlop/s,1.104 TFlop/s,False,False,False,AIX,False,False,False,False,False
+478,pSeries 690 Turbo 1.3GHz,IBM,224,0 GB,POWER4 2C 1.3GHz,Colony,0.6239 TFlop/s,1.1648 TFlop/s,"135,000",False,False,AIX,False,False,False,False,False
+479,"Opteron 1.8 GHz, GigE",Self-made,256,0 GB,Opteron  1.8GHz,Gigabit Ethernet,0.6233 TFlop/s,0.9216 TFlop/s,"248,000",False,False,Linux,False,False,False,False,"65,022"
+480,PowerEdge 2650 Cluster P4 Xeon 2.4 GHz - GigE,Dell EMC,256,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.6183 TFlop/s,1.2288 TFlop/s,"166,000",False,False,Linux,False,False,False,False,"51,000"
+481,SCore IIIe/PIII 933 MHz,Self-made,"1,024",0 GB,Pentium 3  933MHz,Myrinet,0.6183 TFlop/s,0.9554 TFlop/s,"146,000",False,False,Linux,False,False,False,False,"23,000"
+482,"Cluster Platform 6000 zx6000 Itanium2 1.5 GHz, Myrinet",HPE,128,0 GB,Itanium 2  1.5GHz,Myrinet,0.618 TFlop/s,0.768 TFlop/s,False,False,False,Linux,False,False,False,False,False
+483,"Cluster Platform 6000 zx6000 Itanium2 1.5 GHz, Myrinet",HPE,128,0 GB,Itanium 2  1.5GHz,Myrinet,0.618 TFlop/s,0.768 TFlop/s,False,False,False,Linux,False,False,False,False,False
+484,SX-6/80M10,NEC,80,0 GB,NEC  1GHz,Multi-stage crossbar,0.6169 TFlop/s,0.64 TFlop/s,False,False,False,Super-UX,False,False,False,False,False
+485,"P4 Xeon 2.8 GHz, GigE",Transtec AG,320,0 GB,Pentium 4 Xeon  2.8GHz,Gigabit Ethernet,0.6155 TFlop/s,1.792 TFlop/s,"133,000",False,False,Linux,False,False,False,False,"24,000"
+486,"BladeCenter Cluster Xeon 2.4 GHz, Gig-Ethernet",IBM,280,0 GB,Pentium 4 Xeon  2.4GHz,Gigabit Ethernet,0.6139 TFlop/s,1.344 TFlop/s,"200,000",False,False,Linux,False,False,False,False,False
+487,SuperDome 750 MHz/HyperPlex,HP,512,0 GB,PA-8700  750MHz,HyperPlex,0.61 TFlop/s,1.536 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+488,SuperDome 750 MHz/HyperPlex,HP,448,0 GB,PA-8700  750MHz,HyperPlex,0.61 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+489,SuperDome 750 MHz/HyperPlex,HP,448,0 GB,PA-8700  750MHz,HyperPlex,0.61 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+490,SuperDome 750 MHz/HyperPlex,HP,448,0 GB,PA-8700  750MHz,HyperPlex,0.61 TFlop/s,1.344 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+491,SuperDome 750 MHz/HyperPlex,HPE,384,0 GB,PA-8700  750MHz,HyperPlex,0.61 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+492,SuperDome 750 MHz/HyperPlex,HP,384,0 GB,PA-8700  750MHz,HyperPlex,0.61 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+493,SuperDome 750 MHz/HyperPlex,HP,384,0 GB,PA-8700  750MHz,HyperPlex,0.61 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+494,SuperDome 750 MHz/HyperPlex,HP,384,0 GB,PA-8700  750MHz,HyperPlex,0.61 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+495,SuperDome 750 MHz/HyperPlex,HP,384,0 GB,PA-8700  750MHz,HyperPlex,0.61 TFlop/s,1.152 TFlop/s,False,False,False,HP Unix (HP-UX),False,False,False,False,False
+496,SuperDome 1 GHz/HPlex,HPE,256,0 GB,PA-8800 2C 1GHz,HyperPlex,0.6608 TFlop/s,1.024 TFlop/s,"347,760",False,False,HP Unix (HP-UX),False,False,False,False,"90,720"
+497,SuperDome 1 GHz/HPlex,HPE,256,0 GB,PA-8800 2C 1GHz,HyperPlex,0.6608 TFlop/s,1.024 TFlop/s,"347,760",False,False,HP Unix (HP-UX),False,False,False,False,"90,720"
+498,xSeries Xeon 3.06 GHz - Gig-E,IBM,162,0 GB,Pentium 4 Xeon  3.06GHz,Gigabit Ethernet,0.60831 TFlop/s,0.99144 TFlop/s,False,False,False,Linux,False,False,False,False,False
+499,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
